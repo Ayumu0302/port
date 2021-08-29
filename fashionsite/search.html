@@ -1,0 +1,230 @@
+<html>
+<head>
+<link rel="stylesheet" href="2.css">
+<meta charset="utf-8">
+<title>JavaScript </title> 
+<script>   
+    
+var boushidata = new Array();
+boushidata[1] = "whitecap.jpg"
+boushidata[2] = "championcap.JPG";
+boushidata[3] = "redcap.jpg";
+boushidata[4] = "greencap.jpg";
+boushidata[5] = "gstarcap.JPG";
+boushidata[6] = "beigecap.jpg";
+boushidata[7] = "browncap.png";
+boushidata[8] = "leathercap.JPG";
+boushidata[9] = "orangecap.jpg";
+boushidata[10] = "graycap.jpg";
+
+var uedata = new Array();  
+uedata[1] = "whiteshirt.JPG";
+uedata[2] = "blackshirt.JPG";
+uedata[3] = "redtshirt.JPG";
+uedata[4] = "greentshirt.JPG";
+uedata[5] = "bluetshirt.JPG";
+uedata[6] = "beigeshirt.JPG";
+uedata[7] = "brownshirt.JPG";
+uedata[8] = "navyshirt.JPG";
+uedata[9] = "orangetshirt.JPG";
+uedata[10] = "no image.jpg";
+
+var uedata1 = new Array();  
+uedata1[1] = "whitetshirt.JPG";
+uedata1[2] = "blackshirt2.JPG";
+uedata1[3] = "redtshirt.JPG";
+uedata1[4] = "greentshirt.JPG";
+uedata1[5] = "bluetshirt.JPG";
+uedata1[6] = "beigeshirt2.JPG";
+uedata1[7] = "browntshirt.JPG";
+uedata1[8] = "navyshirt2.JPG";
+uedata1[9] = "orangetshirt.JPG";
+uedata1[10] = "no image.jpg";
+
+var shitadata = new Array();  
+shitadata[1] = "whitepants.jpg";
+shitadata[2] = "blackpants.JPG";
+shitadata[3] = "redpants.jpg";
+shitadata[4] = "greenpants.jpg";
+shitadata[5] = "jeans.JPG";
+shitadata[6] = "beigepants.jpg";
+shitadata[7] = "brownpants.jpg";
+shitadata[8] = "navypants.JPG";
+shitadata[9] = "orangepants.jpg";
+shitadata[10] = "graypants.JPG";
+
+var shitadata1 = new Array();  
+shitadata1[1] = "whitepants.jpg";
+shitadata1[2] = "blackpants.JPG";
+shitadata1[3] = "redpants.jpg";
+shitadata1[4] = "greenpants.jpg";
+shitadata1[5] = "jeans.JPG";
+shitadata1[6] = "beigepants.jpg";
+shitadata1[7] = "brownpants.jpg";
+shitadata1[8] = "jeans2.JPG";
+shitadata1[9] = "orangepants.jpg";
+shitadata1[10] = "graypants2.JPG";
+
+var kutsudata = new Array();  
+kutsudata[1] = "whiteshoes2.JPG";
+kutsudata[2] = "blackleathershoes.JPG";
+kutsudata[3] = "redshoes.JPG";
+kutsudata[4] = "greenshose.jpg";
+kutsudata[5] = "blueshoes.JPG";
+kutsudata[6] = "beigeshose.jpg";
+kutsudata[7] = "brownshose.jpg";
+kutsudata[8] = "navyshose.jpg";
+kutsudata[9] = "orangeshose.jpg";
+kutsudata[10] = "grayshose.jpg";
+
+var kutsudata2 = new Array();  
+kutsudata2[1] = "whiteshoes3.JPG";
+kutsudata2[2] = "blackleathershoes2.JPG";
+kutsudata2[3] = "redshoes2.JPG";
+kutsudata2[4] = "greenshose.jpg";
+kutsudata2[5] = "blueshoes.JPG";
+kutsudata2[6] = "beigeshose.jpg";
+kutsudata2[7] = "brownshose.jpg";
+kutsudata2[8] = "navyshose.jpg";
+kutsudata2[9] = "orangeshose.jpg";
+kutsudata2[10] = "grayshose.jpg";
+
+
+function boushi_show_data(){
+    let img = document.getElementById("image_place");
+    target = boushidata[document.getElementById("1").value];
+    img.src = target;
+    //target = "<img src=" + boushidata[document.getElementById("1").value] + ">";
+    //img = document.write(target);
+}
+
+function ue_show_data(){
+    let img1 = document.getElementById('result1');
+    rand = Math.floor(Math.random()*2);
+    if (rand == 0){
+        target1 = uedata[document.getElementById("2").value];
+        img1.src = target1;
+        //target1 = "<img src=" + uedata[document.getElementById("2").value] + ">";
+        //document.write(target1);
+}
+    
+    if (rand == 1) {
+        target1 = uedata1[document.getElementById("2").value];
+        img1.src = target1;
+}
+}
+
+
+function shita_show_data(){
+    let img = document.getElementById('result2');
+    rand = Math.floor(Math.random()*2);
+    if (rand == 0){
+        target2 = shitadata[document.getElementById("3").value];
+        img.src = target2;
+    }
+    
+    if (rand == 1) {
+        target2 = shitadata1[document.getElementById("3").value];
+        img.src = target2;
+    }
+    
+}
+
+function show_data(){
+    let img = document.getElementById('result3');
+    rand = Math.floor(Math.random()*2);
+    if (rand == 0){
+        target3 = kutsudata[document.getElementById("5").value];
+        img.src = target3;
+    }
+    
+    if (rand == 1) {
+        target3 = kutsudata2[document.getElementById("5").value];
+        img.src = target3;
+    }
+    
+}
+    
+
+
+</script>
+</head>
+<body>
+    <header>
+        <h1 class="headline">
+        <a>FashionSite</a>
+        </h1>
+        <ul class="h-list">
+            <li class="h-list-item">
+                <a href="home.html">
+            <p>home</p>
+            </a>
+            </li>
+            <li class="h-list-item">
+                <a href="search.html">
+                    <p>search</p>
+                </a>
+            </li>
+            <li class="h-list-item">
+                <a href="previw.html">
+                    <p>preview</p>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <main role="main" id="main">
+        <div class="colorlist">
+        <h2 class="c-h2">カラー番号</h2>
+        <table border="1" class="c-lis">
+            <tr><td>白色</td><td>黒色</td><td>赤色</td><td>緑色</td><td>青色</td><td>薄茶</td><td>茶色</td><td>紺色</td><td>橙色</td><td>灰色</td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
+        </table>
+        </div>
+        <div class="blocka">
+            <p>帽子</p>
+            <p><input type="text" id="1">
+            <button onClick="boushi_show_data()">OK</button></p>
+            <p>上の服</p>
+            <p><input type="text" id="2">
+            <button onClick="ue_show_data()">OK</button></p>
+            <p>ズボン</p>
+            <p><input type="text" id="3">
+            <button onClick="shita_show_data()">OK</button></p>
+            <p>靴</p>
+            <p><input type="text" id="5">
+            <button onClick="show_data()">OK</button></p>
+            <h3 class="b-h3">使用方法</h3>
+            <p>上記の四項目あるアイテム欄に検索したいカラー番号を入力してください<br>
+            入力した後、「OK」と書かれたボタンを押すことで、<br>
+            あなたが合わせたいカラーのアイテム画像が表示されます。<br>
+            お好きなカラーアイテムを組み合わせてコーディネートを楽しもう！
+            </p>
+        </div>
+        <div class="imgblock">
+            <img id="image_place" src="帽子シルエット.jpg" class="bo">
+            <img id="result1" src="Tシャツシルエット.jpg" class="bo">
+            <img id="result2" src="ズボンシルエット.jpg" class="bo">
+            <img id="result3" src="靴シルエット.jpg" class="bo">
+        </div>
+                <section class="contents">
+            <h1 class="cont-h1">Contents</h1>
+            <ul class="cont-list">
+            <li class="contlist">
+                <a href="search.html">
+                    <img src="contimg.png" class="contimg">
+                    <p　class="contp">Search</p>
+                </a>
+            </li>
+            <li class="contlist">
+                <a href="previw.html">
+                    <img src="4177035_s.jpg" class="contimg">
+                    <p　class="contp">Preview</p>
+                </a>
+            </li>
+            </ul>
+        </section>    
+    </main>
+    <footer>
+        <p>© All rights reserved by AyumuTakahashi.</p>
+    </footer>
+</body>
+</html>

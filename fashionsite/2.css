@@ -1,0 +1,112 @@
+header {
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header .headline{
+  text-align: center;
+  font-size: 64px;
+  font-family: 'courier';
+}
+
+.h-list {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.h-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+#main {
+  width: 100%;
+  height: 2000px;
+  margin: 0 10px 10px 10px;
+}
+
+div .c-h2{
+  text-align: center;
+  font-size: 24px;
+  color: #cab64a;
+  border-top: solid #cab64a 1px;/*上のボーダー*/
+  border-bottom: solid #cab64a 1px;/*下のボーダー*/
+  padding: 0.5em 0 0.5em 1.5em;
+}
+
+table {
+  border-collapse: collapse;
+  border: solid 2px #cab67d;
+  text-align: center;
+  margin: 0 auto 100px auto;
+  width:500px;
+}
+table th, table td {
+  border: dashed 1px #cab64a;
+}
+
+
+div.blocka{
+  margin:150 auto 10 50;
+  float: left;
+  width: 40%;
+}
+
+div.imgblock{
+  margin:0 50 20 auto;
+  width: 60%;
+  display: block;
+}
+
+
+img.bo {
+width: 300px;
+height: 400px;
+height: auto;
+}
+
+section .cont-h1{
+  margin: 200 auto 10px auto;
+  text-align: center;
+  font-size: 24px;
+}
+
+.cont-list {
+  text-align: center;
+  max-width: 960px;
+  margin: 0 0 100px 330;
+  padding: 0 4%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.contlist {
+  text-align: center;
+  list-style: none;
+  width: 300px;
+  float: left;
+  margin:10px;
+  border: 1px solid #ccc;
+  list-style: none;
+}
+
+.contimg {
+  width: 100%;
+}
+
+
+footer {
+  width: 100%;
+  height: 120px; 
+  text-align: center;
+  padding: 50px 0;
+  background-color: #cab64a;
+}
+
+.footer-text {
+  color: #fff;
+}

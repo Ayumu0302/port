@@ -1,0 +1,106 @@
+
+
+header {
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header .headline{
+  text-align: center;
+  font-size: 64px;
+  font-family: 'courier';
+}
+
+.h-list {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.h-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+#main {
+  width: 100%;
+  height: 1500px;
+  margin: 0 10px 10px 10px;
+}
+
+img.mainvis {
+    width: 100%;
+}
+
+section .about-h1{
+  margin: 100px auto 10px auto;
+  text-align: center;
+  font-size: 24px;
+}
+
+.about-list {
+  margin: 100px auto 10px auto;
+  list-style: none;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.about-p {
+    margin: 200px auto 10px auto;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    width: 90%;
+    font-size: 1rem; 
+    color: #222; 
+    background: #fafafa;
+    border: 3px solid #555;
+    font-weight: normal;
+    line-height: 1.6;
+    letter-spacing: 0.01rem;
+    text-indent: 1rem;
+}
+
+section .cont-h1{
+  margin: 100px auto 10px auto;
+  text-align: center;
+  font-size: 24px;
+}
+
+.cont-list {
+  text-align: center;
+  max-width: 960px;
+  margin: 0 0 100px 330;
+  padding: 0 4%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.contlist {
+  text-align: center;
+  list-style: none;
+  width: 300px;
+  float: left;
+  margin:10px;
+  border: 1px solid #ccc;
+  list-style: none;
+}
+
+.contimg {
+  width: 100%;
+}
+
+
+footer {
+  width: 100%;
+  height: 120px; 
+  text-align: center;
+  padding: 50px 0;
+  background-color: #cab64a;
+}
+.footer-text {
+  color: #fff;
+}
