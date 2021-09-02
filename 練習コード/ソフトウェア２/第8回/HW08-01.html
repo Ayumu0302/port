@@ -1,0 +1,48 @@
+ <!doctype html> 
+<html> 
+<head> 
+<meta charset="utf-8"> 
+<title>JavaScript </title> 
+<script> 
+function show_message(){ 
+　　document.getElementById("result_1").innerHTML = 
+  "足し算:" + ( Number( document.getElementById("data1").value ) 
+  + 
+  Number (document.getElementById("data2").value ) ); 
+    
+    document.getElementById("result_2").innerHTML = 
+  "ひき算:" + ( Number( document.getElementById("data1").value ) 
+  - 
+  Number (document.getElementById("data2").value ) ); 
+    
+     document.getElementById("result_3").innerHTML = 
+  "掛け算:" + ( Number( document.getElementById("data1").value ) 
+  * 
+  Number (document.getElementById("data2").value ) ); 
+    
+      document.getElementById("result_4").innerHTML = 
+  "割算:" + ( Number( document.getElementById("data1").value ) 
+  / 
+  Number (document.getElementById("data2").value ) ); 
+
+    document.getElementById("result_5").innerHTML = 
+  "余り:" + ( Number( document.getElementById("data1").value ) 
+  % 
+  Number (document.getElementById("data2").value ) ); 
+} 
+</script> 
+</head> 
+<body> 
+<h1>プログラムで計算</h1> 
+<h2>２つの数値を入力</h2> 
+  <input type="text" id="data1"> 
+  <input type="text" id="data2"> 
+  <button onClick="show_message()">OK</button> 
+<h2>計算結果</h2> 
+    <p id="result_1"> </p> 
+    <p id="result_2"> </p> 
+    <p id="result_3"> </p> 
+    <p id="result_4"> </p> 
+    <p id="result_5"> </p> 
+</body> 
+</html>

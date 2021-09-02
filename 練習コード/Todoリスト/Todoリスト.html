@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css.css">
+        <title>Todoリスト</title>
+    </head>
+    <script>
+        var todo = [];
+        
+        //var i = -1;
+        
+        //const removeTask = removeButton => {
+            //var removelist = document.getElementById('list');
+            //const targetTask = removeButton.closest('li');
+            //var num = Number(removeButton.value)
+            //removelist.removeChild(removelist.children[num]);
+            //--i;
+        //}
+        
+        function funcAdd1(){
+            todo.push(document.getElementById("name").value);
+            var lis = document.createElement('li');
+            lis.textContent = todo.slice(-1)[0];
+            check = document.createElement('input');
+            check.setAttribute('type','checkbox');
+            check.setAttribute('name','check');
+            //removeButton = document.createElement('button');
+            //removeButton.innerText = '削除';
+            //removeButton.value = i++;
+            //removeButton.addEventListener('click', () => removeTask(removeButton));
+            //lis.append(removeButton);
+            lis.append(check);
+            document.getElementById('list').appendChild(lis);
+            }
+        
+        function funcdel(){
+            const check = document.getElementsByName("check");
+            const removelist = document.getElementById('list');
+            for (let i=0; i<check.length; i++){
+                if (check[i].checked){
+                    removelist.removeChild(removelist.children[i]);
+            }
+                
+        }
+        }
+        
+        function funcok(){
+            const check = document.getElementsByName("check");
+            const removelist = document.getElementById('list');
+            for (let i=0; i<check.length; i++){
+                if (check[i].checked){
+                    if(removelist.children[i].style.textDecoration == "line-through"){
+                        removelist.children[i].style.textDecoration = "none";
+                    }else{
+                        removelist.children[i].style.textDecoration = "line-through";
+                    }
+            } 
+        }
+        }
+        
+    </script>   
+
+    <body>
+        <h1>Todoリストを管理</h1>
+        <ul id="list", class="list_test-wrap"></ul>
+        <input type="text" id="name" placeholder="Todo名">
+        <button onclick="funcAdd1()" id="form-button">追加</button><br>
+                <button onclick="funcdel()" id="button">削除</button>
+        <button onclick="funcok()" id="button1">完了</button>
+
+    </body>
+</html>
+
+

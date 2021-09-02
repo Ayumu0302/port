@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JavaScript </title> 
+<script>
+function show_message(){
+  input_info = document.getElementById("data1").value 
+    + "\n" + document.getElementById("data2").value;
+  if( document.getElementById("A").checked ){
+    input_info = input_info + "\n" + "AAA";
+  }else if( document.getElementById("B").checked ){
+    input_info = input_info + "\n" + "BBB";
+  }else if( document.getElementById("C").checked ){
+    input_info = input_info + "\n" + "CCC";
+  }else{
+    input_info = input_info + "\n" + "XXX";
+  }
+    input_info = input_info + "\n" + document.getElementById("fruits").value;
+    alert( input_info ); 
+}
+</script>
+</head>
+<body>
+<h1>情報の入力</h1>
+  <p>
+    <input type="text" id="data1">
+    <input type="password" id="data2">
+  </p>
+  <p>
+    <input type="radio" name="ABC" id="A">AAA
+    <input type="radio" name="ABC" id="B">BBB
+    <input type="radio" name="ABC" id="C">CCC
+  </p>
+  <p>
+    <select id="fruits">
+      <option value="apple"> りんご</option>
+      <option value="orange"> みかん</option>
+      <option value="grape"> ぶどう</option>
+      <option value="peach"> もも</option>
+    </select>
+  </p>
+  <button onClick="show_message()">OK</button>
+  
+</body>
+</html> 

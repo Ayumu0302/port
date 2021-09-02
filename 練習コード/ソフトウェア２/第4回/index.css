@@ -1,0 +1,29 @@
+
+h1{
+    color: white;
+    background: darkblue;  
+}
+h2{
+    color: white;
+    background: red;
+}
+
+	img{
+  display: inline-block;  /* インラインブロックに */
+  /*border: 1px red solid;*/  /* 枠線を太さ1px、色を赤、普通の線 (確認用)*/
+}
+.width25{
+  width: 25%;
+}
+.width100{
+  width: 100%;ß
+  text-align: left;     /* 中身を中央ぞろえ */
+  margin:0;
+  padding:0;
+}
+.width1000{
+  width: 1000px;
+  text-align: left;     /* 中身を中央ぞろえ */
+  vertical-align: middle; /* 垂直方向で中央揃え */
+  margin: 0;
+}

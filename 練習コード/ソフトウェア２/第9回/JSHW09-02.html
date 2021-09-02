@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript </title>
+  <script>
+    function calc() {
+        n= Number (document.getElementById("val_n").value);
+        y= Number (document.getElementById("val_y").value);
+      result= n;
+      for ( i = 0; i < y; i++ ) {
+       result= result + n
+     }
+      document.getElementById("result").innerHTML = "結果は" + result + "です";
+    }
+  </script>
+</head>
+<body>
+  <h1>n+n+...をY回すると...</h1>
+   nが<input type="text" id="val_n">なら
+　　Yが<input type="text" id="val_y">なら
+  <button onClick="calc()">計算</button>
+  <p id="result"> </p>
+</body>
+</html> 

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JavaScript </title> 
+<script>
+function message1(txt){
+    document.getElementById("title_text").textContent = txt;
+	document.getElementById("title_text").style.color = "red"
+}
+function message2(txt){
+	 document.getElementById("title_text").textContent = "ボタンクリックで文変更";
+	document.getElementById("title_text").style.color = "black";
+}
+function message3(txt){
+    document.getElementById("title_text").textContent = txt;
+	document.getElementById("title_text").style.color = "blue"
+}
+</script>
+</head>
+<body>
+<h1 id="title_text">ボタンクリックで文変更</h1>
+<button onClick="message1('エンダアアアアアアアアア')">ABC</button>
+<button onClick="message3('バッキャロオオオオオオ')">DEF</button>
+<button onClick="message2()">GHI</button>
+</body>
+</html>

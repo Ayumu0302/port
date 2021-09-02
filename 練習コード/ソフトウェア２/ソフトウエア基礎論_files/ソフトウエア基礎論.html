@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://chaos.keiei.shikoku-u.ac.jp/intranet/Soft2/#toc6 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <link rel="stylesheet" type="text/css" href="./ソフトウエア基礎論_files/prettify.css">
+  <script>
+    var jsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+    document.write(unescape("%3Cscript src='" + jsHost + "ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js' %3E%3C/script%3E"));
+
+  </script><script src="./ソフトウエア基礎論_files/jquery.min.js"></script>
+  <link rel="stylesheet" href="./ソフトウエア基礎論_files/style.css">
+  <link rel="stylesheet" href="./ソフトウエア基礎論_files/css">
+
+</head>
+
+<body>
+  <span id="toc0"></span><h1> ソフトウェア基礎論II</h1>
+  <span id="toc1"></span><h2 id="01"> 第1回</h2>
+  <h3>授業運営・評価方法など</h3>
+<ul>
+<li>授業の進め方</li>
+<ul>
+<li>前回の内容について小テスト(5分)</li>
+<li>小テスト解答・前回の復習(10分)</li>
+<li>講義・実演(20-30分)</li>
+<li>宿題説明(10分)</li>
+<li>実習(30分)</li>
+</ul>
+<li>評価</li>
+<ul>
+<li>小テスト(2点×12回=24点)</li>
+<li>宿題(2点×12回=24点)</li>
+<li>課題(10点＋12点=22点)</li>
+<li>テスト(15点+15点=30点)</li>
+</ul>
+<li>注意</li>
+<ul>
+<li>本ページをテキストとする。購入が必要な書籍はないが，各自必要に応じて購入すること。</li>
+<li>遅刻欠席すると，小テストを受けられない。一回の配点は低い（２点）が積み重なると単位取得に影響する。</li>
+<li>授業時間外に提出するものだけで48点分あり，小テストを入れると60点になる。すなわち，提出物をすべて適切に提出し，
+前回の復習を行った上で授業に出席することが単位取得には重要です。</li>
+</ul>
+</ul>
+  <h3>World Wide Web</h3>
+  <ul>
+    <li>Tim Berners-Leeが考案。URL、HTTP、HTMLも作った。</li>
+  <ul>
+<li>URL(Uniform Resource Locator)</li>
+  <ul>
+   <li>https://www.shikoku-u.ac.jp/index.html</li>
+   <li>httpsで、www.shikoku-u.ac.jpにあるindex.htmlにアクセスできる</li>
+  </ul>
+ <li>HTTP(Hyper Text Transfer Protocol)</li>
+  <ul>
+   <li>ハイパーテキスト転送プロトコル</li>
+   <li>ハイパーテキストをやり取りするための通信の⼿順</li>
+   <li>httpsのsはSecure（暗号化）を意味している。httpとは別のプロトコル</li>
+  </ul>
+<li>HTML(Hyper Text Markup Language)</li>
+  <ul>
+<li>ハイパーテキストを記述する⾔語</li>
+<li>この授業で学ぶもの</li>
+<li>タグで⽂章の構造は意味などを⽰している</li>
+  </ul>
+</ul>
+</ul>
+  <h3>HTML</h3>
+  <ul>
+    <li>HTMLはマークアップ言語。プログラム言語ではない。</li>
+    <li>下記の例では，&lt;h1&gt;-&lt;/h1&gt;で見出しを，&lt;p&gt;-&lt;/p&gt;で段落を表している。</li>
+    <li>文章の構造が示されているのでデータとして活用できる</li>
+<pre>&lt;h1&gt;マークアップ⾔語&lt;/h1&gt;
+&lt;p&gt;マークアップ⾔語はいくつかの種類がありますが、⽂章、データが
+何を意味するのかを表すものであるということでは共通です。&lt;/p&gt;
+</pre>
+  </ul>
+
+  <h3>CSS</h3>
+  <ul>
+    <li>Cascading Style Sheet (カスケーディングスタイルシート)</li>
+    <li>CSSはHTMLをどのように表示するかを指示するもの</li>
+    <ul>
+      <li>文字のサイズ，色，右寄せ，図の配置などなど</li>
+      <li>HTML自体は，文章をデータとして扱うことが目的</li>
+      <ul>
+         <li>CSS普及前には，表のタグをレイアウトに用いるなど，本来の目的以外の書き方がなされてきた。</li>
+      </ul>
+  </ul>
+  </ul>
+  <h3>Java Script</h3>
+  <ul> 
+<li>HTMLの表⽰を動的にすることできる</li>
+<li>クライアント側で動作</li>
+  <ul> 
+   <li>PHP、Java Servret、Ruby on Railsなどは、サーバ側で動作</li>
+  </ul> 
+<li>スクリプト⾔語</li>
+  <ul> 
+<li>簡単なプログラム⾔語ぐらいかな。</li>
+<li>オブジェクト指向</li>
+<li>最近の⾔語はほとんどオブジェクト指向⾔語</li>
+  <ul>
+<li>C⾔語は違う（そんなこともあり、C++やC#がある）</li>
+  </ul>
+  </ul> 
+<li>ここ１０年ぐらいでAjaxという⾔葉とともに、⼤流⾏り</li>
+  <ul> 
+<li>⼈気⾔語の１つ</li>
+<li>ブラウザ上実⽤的に動くプログラム⾔語としては唯⼀無⼆</li>
+  <ul> 
+<li>広く利⽤されている環境なのにJavaScriptだけ利⽤できる</li>
+  </ul>
+  </ul>
+  </ul>
+  
+
+  <h3>Webの仕組み</h3>
+<img src="./ソフトウエア基礎論_files/web.png">
+
+  <h3>推奨開発環境(代替環境を用意し使いこなせる学生以外は，下記ソフトウェアをすべてインストールしておくこと)</h3>
+  <ul>
+    <li>OS: macOS</li>
+    <li>Webブラウザ: <a href="https://www.google.co.jp/chrome/browser/desktop/index.html"> Google Chrome</a></li>
+    <li>
+      <details>
+        <summary>テキストエディタ: <a href="http://brackets.io/">Brackets</a></summary>
+
+        <ol>
+          <li> Download Brackets X.XXのボタンをクリックしダウンロード </li>
+          <li> ダウンロードしたファイルをダブルクリック </li>
+          <li> 図のようなウィンドウが表示されるので左のアイコンを右のアイコンにドラッグ&amp;ドロップ <img src="./ソフトウエア基礎論_files/brackets_inst.png"></li>
+        </ol>
+        <li> 下記プラグインはおすすめです</li>
+        <ul>
+          <li>プラグイン：Beautify, Highlighting Multibyte Symbols</li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary>FTPクライアント: <a href="https://cyberduck.io/">Cyberduck</a></summary>
+        <ol>
+          <li> Download Cyberduck for Mac.のボタンをクリックしダウンロード </li>
+          <li> ダウンロードしたファイルをダブルクリック </li>
+          <li> Cyberduck.app(アヒルのアイコン）ができるので、Finderで「アプリケーション」にドラッグ&amp;ドロップ </li>
+        </ol>
+      </details>
+    </li>
+  </ul>
+  <h3>開発手順</h3>
+  <ol>
+    <li>テキストエディタを開く</li>
+    <li>htmlの内容を書く(下記のひな形は意味を含めて覚えてください:<a href="https://developer.mozilla.org/ja/docs/Web/HTML/Introduction">参考リンク</a>)
+      <pre><code class="prettyprint prettyprinted" style=""><span class="dec">&lt;!doctype html&gt;</span><span class="pln">
+</span><span class="tag">&lt;html&gt;</span><span class="pln">
+</span><span class="tag">&lt;head&gt;</span><span class="pln">
+    </span><span class="tag">&lt;meta</span><span class="pln"> </span><span class="atn">charset</span><span class="pun">=</span><span class="atv">"UTF-8"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;title&gt;</span><span class="pln"> 
+    </span><span class="com">&lt;!--ここにタイトルバーに表示される文字。 --&gt;</span><span class="pln">
+    </span><span class="tag">&lt;/title&gt;</span><span class="pln">
+</span><span class="tag">&lt;/head&gt;</span><span class="pln">
+</span><span class="tag">&lt;body&gt;</span><span class="pln">
+    </span><span class="com">&lt;!-- ここに文章、そしてタグを書く。--&gt;</span><span class="pln">
+</span><span class="tag">&lt;/body&gt;</span><span class="pln">
+</span><span class="tag">&lt;/html&gt;</span></code></pre>
+    </li>
+    <li>htmlファイルとして保存</li>
+    <li>保存したhtmlファイルをブラウザで表示し、確認(授業では大半がここまで)
+    </li>
+    <ul>
+      <li>ブラウザのデベロッパーツールを活用
+        <details>
+          <summary>デベロッパーツール表示方法</summary>メニューの「表示」-「開発/管理」-「デベロッパーツール」をクリック。エラーがあれば、consoleに表示されている。</details>
+      </li>
+    </ul>
+    <li>サーバにアップロードし公開</li>
+  </ol>
+  <p>注意点1： &lt;!--　と --&gt;で挟まれた部分はコメントを書くことができます。新しいタグなどには、コメントとして説明を入れていくと良いでしょう。</p>
+  <p>注意点2： 改行、半角のスペースを入れてありますが、人間にとってみやすするためで、上記のコードを１行で書いても同様に表示されます。 空白の入れ方は、
+    <a href="http://sokutaku.jp/column/2012/04/post-4.php">参考リンク</a>などを見てください。Bracketsの拡張機能でBeautifyを導入して入れば、容易に一般的なインデントに調整してくれます。</p>
+  <h3>HTMLタグの紹介</h3>
+  <ul>
+    <li>&lt;h1&gt;-&lt;h6&gt; : 見出し（Heading) </li>
+    <li>&lt;p&gt; : 段落（Paragraph) </li>
+  </ul>
+  <h3>今日の宿題</h3>
+  <p>
+    ファイル名「HW01-01.html」として、下記の指示を満たしたファイルを作成し、マナバフォリオで提出せよ。
+  </p>
+  <ul>
+    <li>大見出しとして氏名（ふりがな）をh1タグで書く</li>
+    <li>見出し「自己紹介」「好きなこと」「大学生のうちにしたいこと」をh2タグで書く</li>
+    <li>それぞれの見出し毎に文章を書く。ただし、それぞれ１２０−１８０文字程度とし、pタグで囲むこと。</li>
+  </ul>
+  <h3>自己学習用Webサイト</h3>
+  <ul>
+    <li><a href="https://www.w3schools.com/">w3schools.com</a>(英語サイト） 世界最大のWeb開発者サイトらしい。かなり細かなステップで、説明されているので、ソースコードを順に勉強していくだけでも、勉強になると思う。</li>
+    <li>
+      <a href="https://dotinstall.com/">ドットインストール</a> １つ３分の動画で実例と共に簡潔に説明される。要点を掴みかつ実践的で独習に便利。
+    </li>
+    <li><a href="https://developer.mozilla.org/ja/docs/Web/">mozillaのデベロッパー(開発者)ガイド</a></li>
+  </ul>
+  <span id="toc2"></span><h2> 第2回</h2>
+  <h3>CSS外部ファイル</h3>
+  <p>
+    宿題のhtmlファイルのhead内にCSSファイルを呼び出す書きコードを追加しましょう。
+  </p>
+  <pre class="prettyprint lang-css prettyprinted" style=""><code><span class="tag">&lt;link</span><span class="pln"> </span><span class="atn">rel</span><span class="pun">=</span><span class="atv">"stylesheet"</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"style02.css"</span><span class="tag">&gt;</span></code></pre>
+  <p>
+    さらに、ファイルのあるディレクトリにファイル名「style02.css」というファイルを作成し、書きコード（CSS)を記入しましょう。
+  </p>
+  <pre class="prettyprint lang-css prettyprinted" style=""><code><span class="com">/* コメント */</span><span class="pln"> 
+</span><span class="com">/* 見出しの色 */</span><span class="pln"> 
+h1</span><span class="pun">{</span><span class="pln">
+    color</span><span class="pun">:</span><span class="pln"> white</span><span class="pun">;</span><span class="pln">
+    background</span><span class="pun">:</span><span class="pln"> darkblue</span><span class="pun">;</span><span class="pln">  
+</span><span class="pun">}</span><span class="pln">
+h2</span><span class="pun">{</span><span class="pln">
+    color</span><span class="pun">:</span><span class="pln"> yellow</span><span class="pun">;</span><span class="pln">
+    background</span><span class="pun">:</span><span class="pln"> blue</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span><span class="pln">
+
+</span><span class="com">/* 表のデザイン */</span><span class="pln"> 
+td</span><span class="pun">{</span><span class="pln">
+    width</span><span class="pun">:</span><span class="pln"> </span><span class="lit">100px</span><span class="pun">;</span><span class="pln">
+    border</span><span class="pun">:</span><span class="pln"> </span><span class="lit">1px</span><span class="pln"> solid black</span><span class="pun">;</span><span class="pln">
+    padding</span><span class="pun">:</span><span class="pln"> </span><span class="lit">0px</span><span class="pun">;</span><span class="pln">
+    margin</span><span class="pun">:</span><span class="pln"> </span><span class="lit">0px</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span><span class="pln">
+table</span><span class="pun">,</span><span class="pln">th</span><span class="pun">{</span><span class="pln">
+    border</span><span class="pun">-</span><span class="pln">collapse</span><span class="pun">:</span><span class="pln">collapse</span><span class="pun">;</span><span class="pln">
+    border</span><span class="pun">-</span><span class="pln">spacing</span><span class="pun">:</span><span class="lit">0px</span><span class="pun">;</span><span class="pln">
+    border</span><span class="pun">:</span><span class="lit">0</span><span class="pun">;</span><span class="pln">
+    padding</span><span class="pun">:</span><span class="pln"> </span><span class="lit">0</span><span class="pun">;</span><span class="pln">
+    margin</span><span class="pun">:</span><span class="pln"> </span><span class="lit">0</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span><span class="pln"> </span></code></pre>
+  <p>
+    このように設定することで、自己紹介のページの見出しの色が変わったと思います。好きな色に変更してみましょう。 色の設定は単語だけではなく、#FF00FFなどの表現も利用できます。css色などで検索してみましょう。
+  </p>
+  <h3>cssファイルの変更が反映されない時は、、、</h3>
+  <p>
+    この授業の方法（cssを外部ファイルにする）の場合、ブラウザのキャッシュ（早く表示するために一時的にブラウザ自体にデータを保存すること、または、そのデータ）のため、cssファイルを書き換えても反映されない場合があります。その場合は、「デベロッパーツール」を表示させた状態で、ブラウザの更新ボタンを右クリック（２本指でクリック）し、「キャッシュの消去とハード再読み込み」をクリックしてみてください。
+  </p>
+  <h3>箇条書き(List)</h3>
+  <p> 箇条書きには、順番のない(Unordered)箇条書き（List)を表す ulタグか 順番のある(ordered)箇条書き（List)を表す olタグ を用います。各項目にはliタグを用います。<a href="https://developer.mozilla.org/ja/docs/Web/HTML/Element/ul">参考サイト</a>
+  </p>
+  <h3>表(Table)</h3>
+  <p> 表(Table)は、tableタグを用います。表の１行はtr、セルはtdを用い、１行づつ記載します。セルの結合などの設定もできます。参考サイト下部のサンプルを参考にすると良いでしょう。
+    <a href="https://developer.mozilla.org/ja/docs/Web/HTML/Element/table">参考サイト</a>
+    </p><h3>画像(Image)</h3>
+    <p> 画像(Image)は、imgタグを用います。下記コードをhtmlファイルに記載し、画像ファイル「bed.jpg」を同じディレクトリに用意すれば、ブラウザで画像が表示されます。altには画像の説明を書きましょう。
+    </p>
+    <pre><code>&lt;img src="bed.jpg" alt="自作ベッド"&gt;</code></pre>
+    <h3>今日の宿題</h3>
+    <p>
+      ファイル名「HW02-01.html」として、下記の指示を満たしたファイルを作成し、マナバフォリオで提出せよ。
+    </p>
+    <ul>
+      <li>前回作成した「HW01-01.html」に見出し「好きな〇〇ベスト３」「〇〇〇」「一週間の予定」をh2タグで書く(◯は任意の文字列を表す)</li>
+      <li>追加した見出し「好きな〇〇ベスト３」に順番ありの箇条書きでベスト３を書く。</li>
+      <li>追加した見出し「〇〇〇」に順番なしの箇条書きを書く。入れ子にすること。</li>
+      <li>追加した見出し「一週間の予定」を票として書く。</li>
+      <li>見出し「自己紹介」に画像を追加する。</li>
+      <li>CSSファイルの値を書き換える。</li>
+    </ul>
+  <h3>要約動画(CSS外部ファイルの使い方)</h3>
+<iframe width="560" height="315" src="./ソフトウエア基礎論_files/KfooN_-AaiA.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+    <span id="toc3"></span><h2> 第3回</h2>
+    <h3>htmlとcssレイアウト</h3>
+    <p>htmlでもワープロのように中央揃え、右揃えを始め、文章、画像などのレイアウトを設定することができます。厳密には、html自体は、文書、画像などのコンテンツを示すためにタグを用い、デザイン、レイアウトにはCSSを用いるという考え方がベースになっています。CSSを駆使することで、ワープロと同様に様々な文書デザインが可能です。
+    </p>
+    <p>htmlのレイアウトの基本はボックスレイアウトです。これまで紹介したh2タグ、pタグなどには、タグ間の余白（Margin)、境界線（Border)、境界線と内容の間(padding)の大きさを設定することができ、一つのボックスと考えることができます。 そして、それぞれのボックスをどのように配置するかを決める方法も複数あり、検索すると様々な方法を 見ることができます。
+    </p>
+    <h3>inline-blockで横並び</h3>
+    <p>ここでは、横並びにする方法を紹介します。横並びにする方法だけでも複数の方法がありますが、 この授業では、比較的簡単なinline-blockを用いる方法を推奨します。
+    </p>
+    <p>pタグは段落という意味がありますが、レイアウト上、複数の段落と写真をひとまとまりにするなど、 文章として意味がないものをボックスとしたい場合があります。その場合に用いるのがdiv(division)タグです。
+    </p>
+    <p>
+      実例で紹介したいと思います。 htmlファイルのbody内に下記コードを入力しましょう。
+    </p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"width1000"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"keyboard.jpg"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">"keyboard"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"keyboard.jpg"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">"keyboard"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"keyboard.jpg"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">"keyboard"</span><span class="tag">&gt;</span><span class="pln">
+ </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+</span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"width100"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"width25"</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"keyboard.jpg"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">"keyboard"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"width25"</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"keyboard.jpg"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">"keyboard"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"width25"</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"keyboard.jpg"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">"keyboard"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"width25"</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"keyboard.jpg"</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">"keyboard"</span><span class="tag">&gt;</span><span class="pln">
+</span><span class="tag">&lt;/div&gt;</span></code></pre>
+    <p>
+      さらに、下記cssを読み込むようにしてください。
+    </p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="pln">img</span><span class="pun">{</span><span class="pln">
+  display</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">inline</span><span class="pun">-</span><span class="pln">block</span><span class="pun">;</span><span class="pln">  </span><span class="com">/* インラインブロックに */</span><span class="pln">
+  </span><span class="com">/*border: 1px red solid;*/</span><span class="pln">  </span><span class="com">/* 枠線を太さ1px、色を赤、普通の線 (確認用)*/</span><span class="pln">
+</span><span class="pun">}</span><span class="pln">
+</span><span class="pun">.</span><span class="pln">width25</span><span class="pun">{</span><span class="pln">
+  width</span><span class="pun">:</span><span class="pln"> </span><span class="lit">25</span><span class="pun">%;</span><span class="pln">
+</span><span class="pun">}</span><span class="pln">
+</span><span class="pun">.</span><span class="pln">width100</span><span class="pun">{</span><span class="pln">
+  width</span><span class="pun">:</span><span class="pln"> </span><span class="lit">100</span><span class="pun">%;</span><span class="pln">
+  text</span><span class="pun">-</span><span class="pln">align</span><span class="pun">:</span><span class="pln"> center</span><span class="pun">;</span><span class="pln">     </span><span class="com">/* 中身を中央ぞろえ */</span><span class="pln">
+  margin</span><span class="pun">:</span><span class="lit">0</span><span class="pun">;</span><span class="pln">
+  padding</span><span class="pun">:</span><span class="lit">0</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span><span class="pln">
+</span><span class="pun">.</span><span class="pln">width1000</span><span class="pun">{</span><span class="pln">
+  width</span><span class="pun">:</span><span class="pln"> </span><span class="lit">1000px</span><span class="pun">;</span><span class="pln">
+  text</span><span class="pun">-</span><span class="pln">align</span><span class="pun">:</span><span class="pln"> center</span><span class="pun">;</span><span class="pln">     </span><span class="com">/* 中身を中央ぞろえ */</span><span class="pln">
+  vertical</span><span class="pun">-</span><span class="pln">align</span><span class="pun">:</span><span class="pln"> middle</span><span class="pun">;</span><span class="pln"> </span><span class="com">/* 垂直方向で中央揃え */</span><span class="pln">
+  border</span><span class="pun">:</span><span class="pln"> </span><span class="lit">1px</span><span class="pln"> red solid</span><span class="pun">;</span><span class="pln">  </span><span class="com">/* 枠線を太さ1px、色を赤、普通の線 (確認用)*/</span><span class="pln">
+  margin</span><span class="pun">:</span><span class="pln"> </span><span class="lit">0</span><span class="pln"> </span><span class="kwd">auto</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+    <p>ここでは、横並びのー例を紹介しただけですが、divタグなどにcssでレイアウトの設定をすることで、さまざまなレイアウトのページを作成することができます。「ボックスレイアウト　html」、「css デザイン」、「レスポンシブWebデザイン」などで検索すると、いろいろな解説記事や実例を見ることができますので、ぜひ、調べてみてください。</p>
+    <h3>今日の宿題</h3>
+    <ol>
+      <li>自己紹介のファイルの写真と文章が横並びになるようにする</li>
+      <li>今日の説明のファイルでは、写真が３つ横並びになっていたが、縦横２つづつ（２X２）で表示されるようにする</li>
+    </ol>
+    <span id="toc4"></span><h2> 第4回</h2>
+    <h3>リンク (anchor)</h3>
+    <p>
+      htmlの特徴の一つであるリンク(アンカー:anchor)は、aタグを用います。具体的には下記のような書式です。
+    </p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"https://www.shikoku-u.ac.jp"</span><span class="tag">&gt;</span><span class="pln"> 四国大学 </span><span class="tag">&lt;/a&gt;</span></code></pre>
+    <p>
+      この場合は、四国大学のページへのリンクを表しています。URLは絶対パスで表されています。絶対パスは、記載している場所に関わりなく、 示されているものです。すなわち、このページだけでなく、皆さんが作ったWebページでも全く同じ記載で同様にリンクできます。
+    </p>
+    <p>
+      絶対パスに対して相対パスもあります。相対パスの例は下記の通りです。
+    </p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"AAA/BBB.html"</span><span class="tag">&gt;</span><span class="pln"> BBBへのリンク </span><span class="tag">&lt;/a&gt;</span></code></pre>
+    <p>
+      この場合、リンク元のファイルの場所と同じディレクトリ内にあるAAAというディレクトリの中にあるBBB.htmlへのリンクを表しています。
+    </p>
+    <h3>マウスカーソルが重なった時の表示切り替え</h3>
+    <p>マススカーソルが重なった時に表示変わるボタンなどの処理はCSSだけでできます。例えば、aタグで表示されている文字の 背景を黄色にする場合、下記のようなコードをCSSに指定すると良いでしょう。
+    </p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="pln"> a</span><span class="pun">:</span><span class="pln">hover</span><span class="pun">{</span><span class="pln"> background</span><span class="pun">-</span><span class="pln">color</span><span class="pun">:</span><span class="pln"> yellow</span><span class="pun">;}</span></code></pre>
+    <h3>SFTPによるページのアップロード</h3>
+    <p>作成したページを公開するには、<a href="http://www.keiei.shikoku-u.ac.jp/">サーバ</a>にアップロードする必要があります。セキュリティの都合上ここには手順は記載しません。
+授業中の説明をよく聞いて下さい。</p>
+    <h3>課題１</h3>
+    <p>これまでマナバフォリオで提出した宿題と自己紹介のページへリンクを張った新たなページを作成する。但し、下記の条件を満たすこと。</p>
+    <ul>
+      <li>ファイル名はindex.html及びstyle_index.cssとする</li>
+      <li>これまでの宿題はディレクトリ「Homeworks」内に配置</li>
+      <li>ページの初めにh1タグで授業名を書く</li>
+      <li>続けて、h2タグで学生番号、氏名、（ふりがな）を書く</li>
+      <li>h3タグで、宿題一覧と書く</li>
+      <li>順番ありの箇条書きでこれまでの宿題へのリンクを張る</li>
+      <li>CSSでh1の色を白、背景色をdarkblue、h2の色と背景色を任意の色にする</li>
+      <li>その他、授業で学んだ内容を加えても良い</li>
+      <li>作成したファイル、ディレクトリをFTPで指定された場所にアップロードする。</li>
+    </ul>
+    <p>締切は，<strong>11月20日</strong>(21日にサーバのユーザを無効化予定)</p>
+    <span id="toc5"></span><h2> 第5回</h2>
+    <p>この回は中間テスト及び課題１のサポートをします。</p>
+    <p>補講の日程の相談も（11/19.20はどうでしょう？)</p>
+    <span id="toc6"></span><h2> 第6回</h2>
+    <h3>ボタンを押して、ダイアログを表示する</h3>
+    <p>
+      JavaScriptを用いることで、さまざまな処理を行うことができます。まずは、ボタンを押して処理を開始する仕組みを覚えましょう。
+    </p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="dec">&lt;!doctype html&gt;</span><span class="pln">
+</span><span class="tag">&lt;html&gt;</span><span class="pln">
+</span><span class="tag">&lt;head&gt;</span><span class="pln">
+    </span><span class="tag">&lt;meta</span><span class="pln"> </span><span class="atn">charset</span><span class="pun">=</span><span class="atv">"utf-8"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;title&gt;</span><span class="pln">JavaScript </span><span class="tag">&lt;/title&gt;</span><span class="pln"> 
+    </span><span class="tag">&lt;script&gt;</span><span class="pln">
+        </span><span class="kwd">function</span><span class="pln"> show_message</span><span class="pun">(){</span><span class="pln">
+            alert</span><span class="pun">(</span><span class="str">"押したね。"</span><span class="pun">);</span><span class="pln">
+        </span><span class="pun">}</span><span class="pln">
+    </span><span class="tag">&lt;/script&gt;</span><span class="pln">
+</span><span class="tag">&lt;/head&gt;</span><span class="pln">
+</span><span class="tag">&lt;body&gt;</span><span class="pln">
+    </span><span class="tag">&lt;h1&gt;</span><span class="pln">ボタンクリックでダイアログ</span><span class="tag">&lt;/h1&gt;</span><span class="pln">
+    </span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">onClick</span><span class="pun">=</span><span class="atv">"</span><span class="pln">show_message</span><span class="pun">()</span><span class="atv">"</span><span class="tag">&gt;</span><span class="pln">押してね</span><span class="tag">&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;/body&gt;</span><span class="pln">
+</span><span class="tag">&lt;/html&gt;</span></code></pre>
+    <p>まず、確認してほしい部分は、head部のscriptタグです。 このようにscriptタグで囲まれた部分にJavaScriptの プログラムをすることになります。このプログラムでは、 show_message()という関数（自作の命令文）を作成しています。 show_message()では、alert("...")という、ダイアログを表示する命令文が記載されているだけですが、ここを加筆修正すると、 さまざまな処理を行うことができます。
+    </p>
+    <p>
+      body内では、buttonタグの部分が新しい内容です。 onClick="..."で、ボタンをクリックした時の処理を指定しています。ここでは、head内で記述したshow_message()を呼び出すよう指定されています。
+    </p>
+    <p>このプログラムでは、ボタンを押すと、「押したね」と書かれたダイアログが表示されます。このようにユーザの動作（イベント）によって動作することをイベントドリブンと呼び、多くのアプリケーションは、イベントドリブン型で開発されています。
+    </p>
+    <h3>DOM (Document Object Model)</h3>
+    <p>htmlで記述された要素（h1やimgなど）の情報を取り出したり、書き換えたりするためにDOMを用います。実際に、先のプログラムを書き換えて確認してみましょう。</p>
+    <p>まず、alert行を下記のように書き換えます。</p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="pln">document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"title_text"</span><span class="pun">).</span><span class="pln">innerHTML </span><span class="pun">=</span><span class="pln"> </span><span class="str">"押したな〜"</span><span class="pun">;</span></code></pre>
+    <p>次にh1タグにidを追加します。</p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="tag">&lt;h1</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"title_text"</span><span class="tag">&gt;</span><span class="pln">ボタンクリックでここの文章が変わります。</span><span class="tag">&lt;/h1&gt;</span></code></pre>
+    <p>どの要素かを指し示すために、idを設定していますが、"..."の部分は、同一ページで重複しない任意の文字列を書けば良いです。この場合、title_textとしました。JavaScriptで呼び出す時の指定方法は、document.getElementById("...")となります。そして、その要素の何を読み出す、あるいは、修正するかによって、その後ろの部分（今回の場合、innerHTML)は、変わります。
+    </p>
+    <h3>関数の引数</h3>
+    <p>
+      関数functionには、引数という処理に関わる値を取得する方法があります。下記のプログラムのように複数のボタンをそれぞれクリックした時の処理として、show_message()が呼び出されていますが、()の中に文字が指定されています。show_message内では、その内容はtxtとして扱われるように指定されています。すなわち、指定された文字が、h1の文章として表示されます。
+    </p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="pln"> </span><span class="dec">&lt;!doctype html&gt;</span><span class="pln">
+</span><span class="tag">&lt;html&gt;</span><span class="pln">
+</span><span class="tag">&lt;head&gt;</span><span class="pln">
+</span><span class="tag">&lt;meta</span><span class="pln"> </span><span class="atn">charset</span><span class="pun">=</span><span class="atv">"utf-8"</span><span class="tag">&gt;</span><span class="pln">
+</span><span class="tag">&lt;title&gt;</span><span class="pln">JavaScript </span><span class="tag">&lt;/title&gt;</span><span class="pln"> 
+</span><span class="tag">&lt;script&gt;</span><span class="pln">
+</span><span class="kwd">function</span><span class="pln"> show_message</span><span class="pun">(</span><span class="pln">txt</span><span class="pun">){</span><span class="pln">
+    document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"title_text"</span><span class="pun">).</span><span class="pln">innerHTML </span><span class="pun">=</span><span class="pln"> txt</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span><span class="pln">
+</span><span class="tag">&lt;/script&gt;</span><span class="pln">
+</span><span class="tag">&lt;/head&gt;</span><span class="pln">
+</span><span class="tag">&lt;body&gt;</span><span class="pln">
+</span><span class="tag">&lt;h1</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"title_text"</span><span class="tag">&gt;</span><span class="pln">ボタンクリックで文変更</span><span class="tag">&lt;/h1&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">onClick</span><span class="pun">=</span><span class="atv">"</span><span class="pln">show_message</span><span class="pun">(</span><span class="str">'1'</span><span class="pun">)</span><span class="atv">"</span><span class="tag">&gt;</span><span class="pln">ABC</span><span class="tag">&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">onClick</span><span class="pun">=</span><span class="atv">"</span><span class="pln">show_message</span><span class="pun">(</span><span class="str">'2'</span><span class="pun">)</span><span class="atv">"</span><span class="tag">&gt;</span><span class="pln">DEF</span><span class="tag">&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">onClick</span><span class="pun">=</span><span class="atv">"</span><span class="pln">show_message</span><span class="pun">(</span><span class="str">'3'</span><span class="pun">)</span><span class="atv">"</span><span class="tag">&gt;</span><span class="pln">GHI</span><span class="tag">&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;/body&gt;</span><span class="pln">
+</span><span class="tag">&lt;/html&gt;</span></code></pre>
+    <h3>今日の宿題</h3>
+    <ol>
+      <li>ボタンをクリックした時に、ページ内の文章とそのフォントの色が変わるページを作成する。ファイル名は「JSHW06-01.html」とする。</li>
+      <li>ページにボタン３つを用意し、それぞれクリックした時に、異なるメッセージが表示されるページを作成する。ファイル名は「JSHW06-02.html」とする。</li>
+    </ol>
+    <span id="toc7"></span><h2> 第7回</h2>
+    <h3>条件分岐（if文）</h3>
+    <p>
+      Excelでも条件によって異なる処理ができましたが、ほとんどのプログラム言語でも、条件によって異なる処理が可能です。前回の引数の説明で用いたプログラムを改変し、引数の値によって処理を変えるプログラムを紹介します。
+    </p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="pln"> </span><span class="dec">&lt;!doctype html&gt;</span><span class="pln">
+</span><span class="tag">&lt;html&gt;</span><span class="pln">
+</span><span class="tag">&lt;head&gt;</span><span class="pln">
+</span><span class="tag">&lt;meta</span><span class="pln"> </span><span class="atn">charset</span><span class="pun">=</span><span class="atv">"utf-8"</span><span class="tag">&gt;</span><span class="pln">
+</span><span class="tag">&lt;title&gt;</span><span class="pln">JavaScript </span><span class="tag">&lt;/title&gt;</span><span class="pln"> 
+</span><span class="tag">&lt;script&gt;</span><span class="pln">
+</span><span class="kwd">function</span><span class="pln"> show_message</span><span class="pun">(</span><span class="pln">txt</span><span class="pun">){</span><span class="pln">
+    </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> txt </span><span class="pun">==</span><span class="pln"> </span><span class="str">"1"</span><span class="pln"> </span><span class="pun">){</span><span class="pln">
+        document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"title_text"</span><span class="pun">).</span><span class="pln">innerHTML </span><span class="pun">=</span><span class="pln"> </span><span class="str">"ABCを押しましたね"</span><span class="pun">;</span><span class="pln">
+    </span><span class="pun">}</span><span class="kwd">else</span><span class="pln"> </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> txt </span><span class="pun">==</span><span class="pln"> </span><span class="str">"2"</span><span class="pln"> </span><span class="pun">){</span><span class="pln">
+        document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"title_text"</span><span class="pun">).</span><span class="pln">innerHTML </span><span class="pun">=</span><span class="pln"> </span><span class="str">"DEFを押しましたね"</span><span class="pun">;</span><span class="pln">
+    </span><span class="pun">}</span><span class="kwd">else</span><span class="pln"> </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> txt </span><span class="pun">==</span><span class="pln"> </span><span class="str">"3"</span><span class="pln"> </span><span class="pun">){</span><span class="pln">
+        document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"title_text"</span><span class="pun">).</span><span class="pln">innerHTML </span><span class="pun">=</span><span class="pln"> </span><span class="str">"GHIを押しましたね"</span><span class="pun">;</span><span class="pln">
+    </span><span class="pun">}</span><span class="kwd">else</span><span class="pun">{</span><span class="pln">
+        document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"title_text"</span><span class="pun">).</span><span class="pln">innerHTML </span><span class="pun">=</span><span class="pln"> </span><span class="str">"ERROR!!"</span><span class="pun">;</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln">
+</span><span class="pun">}</span><span class="pln">
+</span><span class="tag">&lt;/script&gt;</span><span class="pln">
+</span><span class="tag">&lt;/head&gt;</span><span class="pln">
+</span><span class="tag">&lt;body&gt;</span><span class="pln">
+</span><span class="tag">&lt;h1</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"title_text"</span><span class="tag">&gt;</span><span class="pln">ボタンクリックで文変更</span><span class="tag">&lt;/h1&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">onClick</span><span class="pun">=</span><span class="atv">"</span><span class="pln">show_message</span><span class="pun">(</span><span class="str">'1'</span><span class="pun">)</span><span class="atv">"</span><span class="tag">&gt;</span><span class="pln">ABC</span><span class="tag">&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">onClick</span><span class="pun">=</span><span class="atv">"</span><span class="pln">show_message</span><span class="pun">(</span><span class="str">'2'</span><span class="pun">)</span><span class="atv">"</span><span class="tag">&gt;</span><span class="pln">DEF</span><span class="tag">&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">onClick</span><span class="pun">=</span><span class="atv">"</span><span class="pln">show_message</span><span class="pun">(</span><span class="str">'3'</span><span class="pun">)</span><span class="atv">"</span><span class="tag">&gt;</span><span class="pln">GHI</span><span class="tag">&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;/body&gt;</span><span class="pln">
+</span><span class="tag">&lt;/html&gt;</span></code></pre>
+    <p>まず、下記の部分に注目してください。</p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="pln"> </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> txt </span><span class="pun">==</span><span class="pln"> </span><span class="str">"1"</span><span class="pln"> </span><span class="pun">){</span><span class="pln"> </span><span class="pun">....</span><span class="pln"> </span><span class="pun">}</span><span class="pln"> </span></code></pre>
+    <p>「txt == "1"」の部分は「txtの値が1と同じか？」ということを示しており、その条件を満たしている場合に、{}で囲まれた部分が実行されます。 今回は複数の条件を続けてチェックするしているので、
+    </p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="pln"> </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> txt </span><span class="pun">==</span><span class="pln"> </span><span class="str">"1"</span><span class="pln"> </span><span class="pun">){</span><span class="pln"> 
+     </span><span class="pun">..(</span><span class="lit">1</span><span class="pun">の時の処理)..</span><span class="pln"> 
+ </span><span class="pun">}</span><span class="kwd">else</span><span class="pln"> </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> txt </span><span class="pun">==</span><span class="pln"> </span><span class="str">"2"</span><span class="pln"> </span><span class="pun">){</span><span class="pln">
+     </span><span class="pun">..(</span><span class="lit">1</span><span class="pun">ではなく</span><span class="lit">2</span><span class="pun">の時の処理)..</span><span class="pln"> 
+ </span><span class="pun">}</span><span class="kwd">else</span><span class="pln"> </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> txt </span><span class="pun">==</span><span class="pln"> </span><span class="str">"3"</span><span class="pln"> </span><span class="pun">){</span><span class="pln">
+     </span><span class="pun">..(</span><span class="lit">1</span><span class="pun">でも、</span><span class="lit">2</span><span class="pun">でもなく</span><span class="lit">3</span><span class="pun">の時の処理)..</span><span class="pln"> 
+ </span><span class="pun">}</span><span class="kwd">else</span><span class="pun">{</span><span class="pln">
+     </span><span class="pun">..(どの条件も満たさなかった時の処理)..</span><span class="pln"> 
+ </span><span class="pun">}</span></code></pre>
+    <p>という構造になっています。この場合、txtが1であれば１の時の処理、そうではない場合、txtが2であるかチェックし、そうであれば、２の時の処理、そして、そうでない場合、txtが3であるかあるかチェックし、そうであれば、3の時の処理、そうでなければ、それ以外の場合の処理を行うというアルゴリズムになっています。
+    </p>
+    <p>
+      今回は else if (...) が２つありますが、文法としては、無くても構いませんし、もっと多くても構いません。すなわち、下記のように書いても構いません。
+    </p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="pln"> </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> </span><span class="pun">..条件式..</span><span class="pln"> </span><span class="pun">){</span><span class="pln"> 
+     </span><span class="pun">..（条件式を満たした時の処理）..</span><span class="pln"> 
+ </span><span class="pun">}</span><span class="kwd">else</span><span class="pun">{</span><span class="pln">
+     </span><span class="pun">..（条件式を満たさなかった時の処理）..</span><span class="pln"> 
+ </span><span class="pun">}</span></code></pre>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="pln"> </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> </span><span class="pun">..条件</span><span class="lit">1.</span><span class="pun">.</span><span class="pln"> </span><span class="pun">){</span><span class="pln"> 
+     </span><span class="pun">..（条件</span><span class="lit">1</span><span class="pun">を満たした時の処理）..</span><span class="pln"> 
+ </span><span class="pun">}</span><span class="kwd">else</span><span class="pln"> </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> </span><span class="pun">..条件</span><span class="lit">2.</span><span class="pun">.</span><span class="pln"> </span><span class="pun">){</span><span class="pln">
+     </span><span class="pun">..（条件</span><span class="lit">2</span><span class="pun">を満たした時の処理）..</span><span class="pln"> 
+ </span><span class="pun">}</span><span class="kwd">else</span><span class="pln"> </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> </span><span class="pun">..条件</span><span class="lit">3.</span><span class="pun">.</span><span class="pln"> </span><span class="pun">){</span><span class="pln">
+     </span><span class="pun">..（条件</span><span class="lit">3</span><span class="pun">を満たした時の処理）..</span><span class="pln"> 
+     </span><span class="pun">:</span><span class="pln">
+ </span><span class="pun">}</span><span class="kwd">else</span><span class="pln"> </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> </span><span class="pun">..条件</span><span class="lit">10.</span><span class="pun">.</span><span class="pln"> </span><span class="pun">){</span><span class="pln">
+     </span><span class="pun">..（条件</span><span class="lit">10</span><span class="pun">を満たした時の処理）..</span><span class="pln"> 
+</span><span class="pun">}</span></code></pre>
+
+    <p>
+      最後のelseについても、あっても、無くても構いません。行いたい処理に応じて変化させてください。
+    </p>
+    <h3>情報の入力（input)</h3>
+    <p>文字、数値を入力して処理するために、まず、入力する方法を紹介します。</p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="dec">&lt;!doctype html&gt;</span><span class="pln">
+</span><span class="tag">&lt;html&gt;</span><span class="pln">
+</span><span class="tag">&lt;head&gt;</span><span class="pln">
+</span><span class="tag">&lt;meta</span><span class="pln"> </span><span class="atn">charset</span><span class="pun">=</span><span class="atv">"utf-8"</span><span class="tag">&gt;</span><span class="pln">
+</span><span class="tag">&lt;title&gt;</span><span class="pln">JavaScript </span><span class="tag">&lt;/title&gt;</span><span class="pln"> 
+</span><span class="tag">&lt;script&gt;</span><span class="pln">
+</span><span class="kwd">function</span><span class="pln"> show_message</span><span class="pun">(){</span><span class="pln">
+  alert</span><span class="pun">(</span><span class="pln">document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"data1"</span><span class="pun">).</span><span class="pln">value</span><span class="pun">);</span><span class="pln"> 
+</span><span class="pun">}</span><span class="pln">
+</span><span class="tag">&lt;/script&gt;</span><span class="pln">
+</span><span class="tag">&lt;/head&gt;</span><span class="pln">
+</span><span class="tag">&lt;body&gt;</span><span class="pln">
+</span><span class="tag">&lt;h1&gt;</span><span class="pln">情報の入力</span><span class="tag">&lt;/h1&gt;</span><span class="pln">
+  </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"data1"</span><span class="tag">&gt;</span><span class="pln">
+  </span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">onClick</span><span class="pun">=</span><span class="atv">"</span><span class="pln">show_message</span><span class="pun">()</span><span class="atv">"</span><span class="tag">&gt;</span><span class="pln">OK</span><span class="tag">&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;/body&gt;</span><span class="pln">
+</span><span class="tag">&lt;/html&gt;</span><span class="pln"> </span></code></pre>
+    <p>入力には inputタグを用います。今回はテキストボックス(type="text")を用い、DOMで読み出すために、idを設定(id="data1")してします。</p>
+
+    <p>inputタグのタイプには、いろいろありますが、この授業では、text、password、radioを紹介します。加えて、プルダウンメニューを表示するselectタグも紹介します。全てを組み込んだページの例は下記の通りです。</p>
+
+    <pre class="prettyprint prettyprinted" style=""><code><span class="dec">&lt;!doctype html&gt;</span><span class="pln">
+</span><span class="tag">&lt;html&gt;</span><span class="pln">
+</span><span class="tag">&lt;head&gt;</span><span class="pln">
+</span><span class="tag">&lt;meta</span><span class="pln"> </span><span class="atn">charset</span><span class="pun">=</span><span class="atv">"utf-8"</span><span class="tag">&gt;</span><span class="pln">
+</span><span class="tag">&lt;title&gt;</span><span class="pln">JavaScript </span><span class="tag">&lt;/title&gt;</span><span class="pln"> 
+</span><span class="tag">&lt;script&gt;</span><span class="pln">
+</span><span class="kwd">function</span><span class="pln"> show_message</span><span class="pun">(){</span><span class="pln">
+  input_info </span><span class="pun">=</span><span class="pln"> document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"data1"</span><span class="pun">).</span><span class="pln">value 
+    </span><span class="pun">+</span><span class="pln"> </span><span class="str">"\n"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"data2"</span><span class="pun">).</span><span class="pln">value</span><span class="pun">;</span><span class="pln">
+  </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"A"</span><span class="pun">).</span><span class="pln">checked </span><span class="pun">){</span><span class="pln">
+    input_info </span><span class="pun">=</span><span class="pln"> input_info </span><span class="pun">+</span><span class="pln"> </span><span class="str">"\n"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"AAA"</span><span class="pun">;</span><span class="pln">
+  </span><span class="pun">}</span><span class="kwd">else</span><span class="pln"> </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"B"</span><span class="pun">).</span><span class="pln">checked </span><span class="pun">){</span><span class="pln">
+    input_info </span><span class="pun">=</span><span class="pln"> input_info </span><span class="pun">+</span><span class="pln"> </span><span class="str">"\n"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"BBB"</span><span class="pun">;</span><span class="pln">
+  </span><span class="pun">}</span><span class="kwd">else</span><span class="pln"> </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"C"</span><span class="pun">).</span><span class="pln">checked </span><span class="pun">){</span><span class="pln">
+    input_info </span><span class="pun">=</span><span class="pln"> input_info </span><span class="pun">+</span><span class="pln"> </span><span class="str">"\n"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"CCC"</span><span class="pun">;</span><span class="pln">
+  </span><span class="pun">}</span><span class="kwd">else</span><span class="pun">{</span><span class="pln">
+    input_info </span><span class="pun">=</span><span class="pln"> input_info </span><span class="pun">+</span><span class="pln"> </span><span class="str">"\n"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"XXX"</span><span class="pun">;</span><span class="pln">
+  </span><span class="pun">}</span><span class="pln">
+    input_info </span><span class="pun">=</span><span class="pln"> input_info </span><span class="pun">+</span><span class="pln"> </span><span class="str">"\n"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"fruits"</span><span class="pun">).</span><span class="pln">value</span><span class="pun">;</span><span class="pln">
+    alert</span><span class="pun">(</span><span class="pln"> input_info </span><span class="pun">);</span><span class="pln"> 
+</span><span class="pun">}</span><span class="pln">
+</span><span class="tag">&lt;/script&gt;</span><span class="pln">
+</span><span class="tag">&lt;/head&gt;</span><span class="pln">
+</span><span class="tag">&lt;body&gt;</span><span class="pln">
+</span><span class="tag">&lt;h1&gt;</span><span class="pln">情報の入力</span><span class="tag">&lt;/h1&gt;</span><span class="pln">
+  </span><span class="tag">&lt;p&gt;</span><span class="pln">
+    </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"data1"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"password"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"data2"</span><span class="tag">&gt;</span><span class="pln">
+  </span><span class="tag">&lt;/p&gt;</span><span class="pln">
+  </span><span class="tag">&lt;p&gt;</span><span class="pln">
+    </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"radio"</span><span class="pln"> </span><span class="atn">name</span><span class="pun">=</span><span class="atv">"ABC"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"A"</span><span class="tag">&gt;</span><span class="pln">AAA
+    </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"radio"</span><span class="pln"> </span><span class="atn">name</span><span class="pun">=</span><span class="atv">"ABC"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"B"</span><span class="tag">&gt;</span><span class="pln">BBB
+    </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"radio"</span><span class="pln"> </span><span class="atn">name</span><span class="pun">=</span><span class="atv">"ABC"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"C"</span><span class="tag">&gt;</span><span class="pln">CCC
+  </span><span class="tag">&lt;/p&gt;</span><span class="pln">
+  </span><span class="tag">&lt;p&gt;</span><span class="pln">
+    </span><span class="tag">&lt;select</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"fruits"</span><span class="tag">&gt;</span><span class="pln">
+      </span><span class="tag">&lt;option</span><span class="pln"> </span><span class="atn">value</span><span class="pun">=</span><span class="atv">"apple"</span><span class="tag">&gt;</span><span class="pln"> りんご</span><span class="tag">&lt;/option&gt;</span><span class="pln">
+      </span><span class="tag">&lt;option</span><span class="pln"> </span><span class="atn">value</span><span class="pun">=</span><span class="atv">"orange"</span><span class="tag">&gt;</span><span class="pln"> みかん</span><span class="tag">&lt;/option&gt;</span><span class="pln">
+      </span><span class="tag">&lt;option</span><span class="pln"> </span><span class="atn">value</span><span class="pun">=</span><span class="atv">"grape"</span><span class="tag">&gt;</span><span class="pln"> ぶどう</span><span class="tag">&lt;/option&gt;</span><span class="pln">
+      </span><span class="tag">&lt;option</span><span class="pln"> </span><span class="atn">value</span><span class="pun">=</span><span class="atv">"peach"</span><span class="tag">&gt;</span><span class="pln"> もも</span><span class="tag">&lt;/option&gt;</span><span class="pln">
+    </span><span class="tag">&lt;/select&gt;</span><span class="pln">
+  </span><span class="tag">&lt;/p&gt;</span><span class="pln">
+  </span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">onClick</span><span class="pun">=</span><span class="atv">"</span><span class="pln">show_message</span><span class="pun">()</span><span class="atv">"</span><span class="tag">&gt;</span><span class="pln">OK</span><span class="tag">&lt;/button&gt;</span><span class="pln">
+  
+</span><span class="tag">&lt;/body&gt;</span><span class="pln">
+</span><span class="tag">&lt;/html&gt;</span><span class="pln"> </span></code></pre>
+    <p>
+      passwordはtextと同じように利用できますが、radioとselectは、それぞれ特徴がありますので解説します。
+    </p>
+    <p>
+      radioは複数の候補から１つを選択するためのものです。nameが揃っていることがポイントで、同じnameのものから１つ選択することになります。そして、DOMでチェックされているかを取得できますので、if文でどれがチェックされたのかを判定し、チェックされたものに応じて異なる処理を行なっています。
+    </p>
+    <p>
+      selectも複数の候補から１つを選択するためのものです。radioとは異なり、項目をoptionタグで指定します。 指定された項目の取得はtextと同じで、表示のスペースもradio少ないですから、こちらの方が利用しやすいかもしれません。
+    </p>
+    <h3>文字列の連結</h3>
+    <p>
+      上記ソースコードでは、複数の入力情報を１つのダイアログのメッセージ(input_info)として表示していますが、 少々複雑に見えますので、解説します。まず、復習も兼ねて、変数への文字列の代入は下記の通りです。
+    </p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="pln">input_info </span><span class="pun">=</span><span class="pln"> </span><span class="str">"四国大学"</span><span class="pun">;</span></code></pre>
+    <p>このように、「=」で、変数「input_info」に文字列「四国大学」が代入されます。注意点としては、「=」には、「等しい」という意味はないことです。次に、この変数に文字列を追加してみます。</p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="pln">input_info </span><span class="pun">=</span><span class="pln"> input_info </span><span class="pun">+</span><span class="pln"> </span><span class="str">"経営情報学部"</span><span class="pun">;</span></code></pre>
+    <p>このように、input_info + "経営情報学部"と「+」を用いて、input_infoと文字列「経営情報学部」連結します。そして、改めてinput_infoに代入（上書き）しています。「=」には「等しい」という意味はないので、数学のルールでは間違って見えるこのような書き方も問題無く、プログラムでは非常によく見る形です。</p>
+    <h3>改行コード</h3>
+    <p>
+      上記ソースコードでは、文字列に「\n」があります。これは、改行を意味しています。 上記ソースコードを実行すると分かりますが、項目ごとに改行されて表示されています。 ダイアログのメッセージ自体はhtmlでは無く、一般的なテキストになります。 テキストはただただ文字列が表示されるだけでなく、改行などの目に見えない情報（エスケープシーエンス）があり、プログラムでそれらを入力する場合「\」（バックスラッシュ）と組みわせて入力します。 Macで「\」はoptionキーを押しながら¥キーを押すことで表示されます。
+    </p>
+    <p>
+      したがって、先ほどの続きで、
+    </p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="pln">input_info </span><span class="pun">=</span><span class="pln"> input_info </span><span class="pun">+</span><span class="pln"> </span><span class="str">"\n"</span><span class="pun">+</span><span class="pln"> </span><span class="str">"メディア情報学科"</span><span class="pun">;</span></code></pre>
+    <p>とすることで、input_infoの内容は最終的には</p>
+    <pre class="prettyprint prettyprinted" style=""><code><span class="pun">四国大学経営情報学部</span><span class="pln">
+</span><span class="pun">メディア情報学科</span></code></pre>
+    <p>となります。</p>
+    <h3>今日の宿題</h3>
+    <p>下記項目を実施し、1,2はマナバフォリオで提出し、3はサーバのページを更新すること。</p>
+    <ol>
+      <li>下記ソースコードを改変して、h1の文字列を入力した文字列に変更するページを作成する。ファイル名は「JSHW07-01.html」とする。</li>
+      <li>下記ソースコードを改変して、h1の文字列の色をプルダウンメニューで選択した色に変更するページを作成する。色の種類は５種類以上とする。ファイル名は「JSHW07-02.html」とする。</li>
+      <li>inputあるいはselectを用いて何らかの処理を行うよう「自己紹介」のページを更新する。閲覧した時に 分かるような改変であること。
+      </li>
+    </ol>
+    <span id="toc8"></span><h2> 第8回</h2>
+    <h3>各種演算子について </h3>
+    <p>以下に、よく用いられる演算子を列挙しますが、全てではありません。全ての演算子を確認したい場合、あるいは、より詳しく知りたい場合は、<a href="https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators">参考リンク</a>を参照してください。</p>
+    <h3>代入演算子 </h3>
+    <p>「=」以外にも下記のような記号があります。</p>
+    <table>
+      <tbody><tr>
+        <td>記号</td>
+        <td>意味</td>
+      </tr>
+      <tr>
+        <td>=</td>
+        <td>右辺を左辺に代入</td>
+      </tr>
+      <tr>
+        <td>+=</td>
+        <td>左辺と右辺を足したものを左辺に代入</td>
+      </tr>
+      <tr>
+        <td>-=</td>
+        <td>左辺から右辺を引いたものを左辺に代入</td>
+      </tr>
+    </tbody></table>
+    <p>例えば、aが2の場合、「a+=4」だとaは6にになり、「a-=4」だと、aは-2になります。</p>
+
+    <h3>算術演算子 </h3>
+    <p>下記のような記号で計算できます。
+      </p><table>
+        <tbody><tr>
+          <td>記号</td>
+          <td>意味</td>
+        </tr>
+        <tr>
+          <td>*</td>
+          <td>乗算(掛け算)</td>
+        </tr>
+        <tr>
+          <td>/</td>
+          <td>除算(割り算)</td>
+        </tr>
+        <tr>
+          <td>%</td>
+          <td>剰余(割り算の余り）</td>
+        </tr>
+        <tr>
+          <td>+</td>
+          <td>加算(足し算)</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>減算(引き算)</td>
+        </tr>
+        <tr>
+          <td>++</td>
+          <td>１加える</td>
+        </tr>
+        <tr>
+          <td>--</td>
+          <td>１減らす</td>
+        </tr>
+      </tbody></table>
+      <a href="https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators">参考リンク</a> 実際に、下記のソースコードの式を変えてみて色々計算してみましょう。
+      <pre class="prettyprint prettyprinted" style=""><code><span class="dec">&lt;!doctype html&gt;</span><span class="pln">
+</span><span class="tag">&lt;html&gt;</span><span class="pln">
+</span><span class="tag">&lt;head&gt;</span><span class="pln">
+</span><span class="tag">&lt;meta</span><span class="pln"> </span><span class="atn">charset</span><span class="pun">=</span><span class="atv">"utf-8"</span><span class="tag">&gt;</span><span class="pln">
+</span><span class="tag">&lt;link</span><span class="pln"> </span><span class="atn">rel</span><span class="pun">=</span><span class="atv">"stylesheet"</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"style_JS04.css"</span><span class="tag">&gt;</span><span class="pln">
+</span><span class="tag">&lt;title&gt;</span><span class="pln">JavaScript </span><span class="tag">&lt;/title&gt;</span><span class="pln"> 
+</span><span class="tag">&lt;script&gt;</span><span class="pln">
+</span><span class="kwd">function</span><span class="pln"> calc</span><span class="pun">(){</span><span class="pln">
+  alert</span><span class="pun">(</span><span class="lit">1</span><span class="pun">+</span><span class="lit">1</span><span class="pun">);</span><span class="pln"> 
+</span><span class="pun">}</span><span class="pln">
+</span><span class="tag">&lt;/script&gt;</span><span class="pln">
+</span><span class="tag">&lt;/head&gt;</span><span class="pln">
+</span><span class="tag">&lt;body&gt;</span><span class="pln">
+</span><span class="tag">&lt;h1&gt;</span><span class="pln">算術演算</span><span class="tag">&lt;/h1&gt;</span><span class="pln">
+  </span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">onClick</span><span class="pun">=</span><span class="atv">"</span><span class="pln">calc</span><span class="pun">()</span><span class="atv">"</span><span class="tag">&gt;</span><span class="pln">計算</span><span class="tag">&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;/body&gt;</span><span class="pln">
+</span><span class="tag">&lt;/html&gt;</span></code></pre>
+      <h3>文字列と数値の変換</h3>
+      <p>以前紹介した通り、文字列の連結も「+」を用います。さて、先のプログラムのalertの部分を下記のようにすると、どのように表示されるでしょうか？</p>
+      <pre class="prettyprint prettyprinted" style=""><code><span class="pln">alert</span><span class="pun">(</span><span class="str">"1+1="</span><span class="pun">+</span><span class="lit">1</span><span class="pun">+</span><span class="lit">1</span><span class="pun">);</span></code></pre>
+      <p>意図としては、「"」で挟まれた部分は文字列の連結で挟まれていない部分は数値として計算してもらいたい。 すなわち、「1+1=2」と表示してもらいたいのですが、実際には、後半の「1+1」も文字列として扱われ、「1+1=11」と表示されてしまいます。 これは、前半の扱いから、この式全体が文字列の連結として扱われてしまうためです。 他の言語では、文字列と数値（さらには、整数か、小数があるかなど)を明確に区別しますが、 JavaScriptでは、厳密には区別せず、その都度判断されます。 したがって、「1+1=11」のようなことが起こります。 この対策は色々あるのですが、明確にその文字や変数が、文字列あるいは数値であることを示す関数があります。 String()とNumber()です。文字通り、カッコの中をString(文字列）として扱うか、Number(数字)として、 扱うかを明確にするものです。今回の場合、下記のようにすると意図通りになります。
+      </p>
+      <pre class="prettyprint prettyprinted" style=""><code><span class="pln">alert</span><span class="pun">(</span><span class="str">"1+1="</span><span class="pun">+</span><span class="typ">Number</span><span class="pun">(</span><span class="lit">1</span><span class="pun">+</span><span class="lit">1</span><span class="pun">));</span></code></pre>
+      <h3>比較演算子 </h3>
+      <p>比較演算子は、if文の条件式などに用いられます。
+      </p>
+      <table>
+        <tbody><tr>
+          <td>記号</td>
+          <td>意味</td>
+        </tr>
+        <tr>
+          <td>==</td>
+          <td>等しい</td>
+        </tr>
+        <tr>
+          <td>!=</td>
+          <td>等しくない</td>
+        </tr>
+        <tr>
+          <td>&gt;</td>
+          <td>左の値が大きい</td>
+        </tr>
+        <tr>
+          <td>&gt;=</td>
+          <td>左の値が大きいか同じ</td>
+        </tr>
+        <tr>
+          <td>&lt;</td>
+          <td>左の値が小さい</td>
+        </tr>
+        <tr>
+          <td>&lt;=</td>
+          <td>左の値が小さいか同じ</td>
+        </tr>
+      </tbody></table>
+      <p>例えば、aが3で、「a==3」だと真（true)になり、aが3でなければ、疑(false)となります。</p>
+      <h3>論理演算子 </h3>
+      <p>論理演算子は、複数の条件を組み合わせる場合に用いられます。
+        </p><table>
+          <tbody><tr>
+            <td>記号</td>
+            <td>意味</td>
+          </tr>
+          <tr>
+            <td>&amp;&amp;</td>
+            <td>かつ(AND)</td>
+          </tr>
+          <tr>
+            <td>||</td>
+            <td>または(OR)</td>
+          </tr>
+          <tr>
+            <td>!</td>
+            <td>否定(NOT)</td>
+          </tr>
+        </tbody></table>
+        <p>例えば、aが3で、bが2の場合、「a==3&amp;&amp;b&lt;5」だと真（true)になり、「a&gt;3||b&gt;5」、疑(false)となります。</p>
+        <h3>今日の宿題</h3>
+        <ol>
+          <li>
+            二つのテキストボックスを用意し、ボタンをクリックすることで、乗算、除算、剰余、加算、減算の結果を表示するページを作成する。ファイル名は、「JSHW08-01.html」とする。
+          </li>
+          <li>下記問いに答える。
+            <ul>
+              <li>処理結果を答えよ</li>
+              <ol>
+                <li>3*4</li>
+                <li>10%4</li>
+                <li>21/4</li>
+                <li>3+4*4</li>
+                <li>"3"+"4"</li>
+                <li>"a="+3+4</li>
+                <li>"a="+Number(3+4)+" b="+3</li>
+              </ol>
+              <li>trueかfalseで答えよ。ただし、a=3, b=4, c="ccc", d="ddd"とする。</li>
+              <ol>
+                <li>a==3</li>
+                <li>b!=3</li>
+                <li>a&gt;=3</li>
+                <li>a&gt;3</li>
+                <li>b&lt;3</li>
+                <li>c=="ccc"</li>
+                <li>c==d</li>
+                <li>a==4||b==4</li>
+                <li>a==3&amp;&amp;c=="ddd"</li>
+              </ol>
+            </ul>
+          </li>
+          <span id="toc9"></span><h2> 第9回</h2>
+          <h3>繰り返し処理</h3>
+          <p>コンピュータの得意なことの一つに、休みなく処理を繰り返す事があります。多くのプログラム言語ではfor文で表されます。下記プログラムでは、ボタンを押した時に、10回処理を繰り返す例です。一回毎に繰り返し回数を表す変数iの値を文字列として、変数txtに加え、最後に変数txtの内容を表示します。</p>
+          <pre class="prettyprint prettyprinted" style=""><code><span class="dec">&lt;!doctype html&gt;</span><span class="pln">
+</span><span class="tag">&lt;html&gt;</span><span class="pln">
+</span><span class="tag">&lt;head&gt;</span><span class="pln">
+  </span><span class="tag">&lt;meta</span><span class="pln"> </span><span class="atn">charset</span><span class="pun">=</span><span class="atv">"utf-8"</span><span class="tag">&gt;</span><span class="pln">
+  </span><span class="tag">&lt;title&gt;</span><span class="pln">JavaScript </span><span class="tag">&lt;/title&gt;</span><span class="pln">
+  </span><span class="tag">&lt;script&gt;</span><span class="pln">
+    </span><span class="kwd">function</span><span class="pln"> calc</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+      txt </span><span class="pun">=</span><span class="pln"> </span><span class="str">""</span><span class="pun">;</span><span class="pln">
+      </span><span class="kwd">for</span><span class="pln"> </span><span class="pun">(</span><span class="pln"> i </span><span class="pun">=</span><span class="pln"> </span><span class="lit">0</span><span class="pun">;</span><span class="pln"> i </span><span class="pun">&lt;</span><span class="pln"> </span><span class="lit">10</span><span class="pun">;</span><span class="pln"> i</span><span class="pun">++</span><span class="pln"> </span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        txt </span><span class="pun">=</span><span class="pln"> txt </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;p&gt;"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="typ">String</span><span class="pun">(</span><span class="pln"> i </span><span class="pun">)</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;/p&gt;"</span><span class="pun">;</span><span class="pln">
+      </span><span class="pun">}</span><span class="pln">
+      document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">"result"</span><span class="pun">).</span><span class="pln">innerHTML </span><span class="pun">=</span><span class="pln"> </span><span class="str">"結果は下記の通り"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> txt</span><span class="pun">;</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln">
+  </span><span class="tag">&lt;/script&gt;</span><span class="pln">
+</span><span class="tag">&lt;/head&gt;</span><span class="pln">
+</span><span class="tag">&lt;body&gt;</span><span class="pln">
+  </span><span class="tag">&lt;h1&gt;</span><span class="pln">for文</span><span class="tag">&lt;/h1&gt;</span><span class="pln">
+  </span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">onClick</span><span class="pun">=</span><span class="atv">"</span><span class="pln">calc</span><span class="pun">()</span><span class="atv">"</span><span class="tag">&gt;</span><span class="pln">計算</span><span class="tag">&lt;/button&gt;</span><span class="pln">
+  </span><span class="tag">&lt;p</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"result"</span><span class="tag">&gt;</span><span class="pln"> </span><span class="tag">&lt;/p&gt;</span><span class="pln">
+</span><span class="tag">&lt;/body&gt;</span><span class="pln">
+</span><span class="tag">&lt;/html&gt;</span><span class="pln"> </span></code></pre>
+          <p>for文の構成は下記の通りです。</p>
+          <pre class="prettyprint prettyprinted" style=""><code><span class="kwd">for</span><span class="pln"> </span><span class="pun">(</span><span class="pln"> </span><span class="pun">[初期化];</span><span class="pln"> </span><span class="pun">[継続条件];</span><span class="pln"> </span><span class="pun">[処理終了時の処理]</span><span class="pln">  </span><span class="pun">){</span><span class="pln"> 
+    </span><span class="pun">[繰り返し処理したい内容]</span><span class="pln">
+</span><span class="pun">}</span><span class="pln"> </span></code></pre>
+          <p>まず、初期化では、「i = 0」が非常によく用いられます。「i = 0」である必要があるわけではありませんが、慣れるまでは、「i = 0」で覚えておくと良いでしょう。継続条件は、「i &lt; 10」であれば、iが10未満である限り処理を繰り返すという意味です。条件式を満たさなくなった時点で繰り返し処理が終了します。最後の終了時の処理というのは、繰り返し処理したい内容を一回処理する毎に実行される処理です。「i++」が非常によく用いられます。意味はiを1増加ですね。</p>
+          <p>まとめると、まず、初期化し、継続条件を満たしていれば、繰り返したい処理を実行。そして、処理終了時の処理を行ったのち、継続条件のチェック。満たしれいれば、再度、繰り返したい処理を実施。。。。と継続条件を満たす限り繰り返します。</p>
+          <h3>innerHTMLについて(DOM)</h3>
+          <p>先のブログラムでは、結果の表示に下記の命令を用いました。
+            </p><pre class="prettyprint prettyprinted" style=""><code><span class="pln">&lt;document.getElementById("result").innerHTML = "結果は下記の通り" + txt;</span></code></pre>
+            <p>alertのメッセージでは、htmlは使えなかったので、「\n」を用いましたが，こちらではHTMLタグが利用できます。</p>
+            <h3>今日の宿題</h3>
+            <ol>
+              <li>ボタンを押すと「3+3+3...と3を20回足すといくつになるか」を計算した結果を表示するページを作る。ファイル名は、「JSHW09-01.html」とする。
+                </li><li>２つテキストボックスにそれぞれ任意の数字(x,y)を入力し、ボタンを押すと「x+x+x...とxをY回足すといくつになるか」を計算した結果を表示するページを作る。ファイル名は、「JSHW09-02.html」とする。
+            </li></ol>
+            <span id="toc10"></span><h2> 第10回</h2>
+            <h3>配列</h3>
+            <p>プログラムでデータなどを処理するため、変数を用いてきましたが、同じ種類の大量のデータ、例えば、名簿のデータなどを扱う場合には、変数では扱いづらいため、配列が用いられます。配列は、同じ名前に番号を振った変数のようなもので、利用したい名前（data）の配列を作る命令は下記の通りです。</p>
+            <pre class="prettyprint prettyprinted" style=""><code><span class="pln"> </span><span class="kwd">var</span><span class="pln"> data </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Array</span><span class="pun">();</span></code></pre>
+            <p>これでは、何もデータが入っていないので、架空の電話番号を入れてみましょう。</p>
+            <pre class="prettyprint prettyprinted" style=""><code><span class="pln">data</span><span class="pun">[</span><span class="lit">0</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-345-6780"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">1</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-341-6781"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">2</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-342-6782"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">3</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-343-6783"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">4</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-344-6784"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">5</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-345-6785"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">6</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-346-6786"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">7</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-347-6787"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">8</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-348-6788"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">9</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-349-6789"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">10</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-350-6710"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">11</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-351-6711"</span><span class="pun">;</span></code></pre>
+            <p>このように名前[番号]の形で変数のように代入したり、呼び出したりできます。下記のプログラムはすべてのデータを表示するプログラムです。</p>
+
+            <pre class="prettyprint prettyprinted" style=""><code><span class="dec">&lt;!doctype html&gt;</span><span class="pln">
+</span><span class="tag">&lt;html&gt;</span><span class="pln">
+</span><span class="tag">&lt;head&gt;</span><span class="pln">
+</span><span class="tag">&lt;meta</span><span class="pln"> </span><span class="atn">charset</span><span class="pun">=</span><span class="atv">"utf-8"</span><span class="tag">&gt;</span><span class="pln">
+</span><span class="tag">&lt;title&gt;</span><span class="pln">JavaScript </span><span class="tag">&lt;/title&gt;</span><span class="pln"> 
+</span><span class="tag">&lt;script&gt;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> data </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Array</span><span class="pun">();</span><span class="pln">  
+data</span><span class="pun">[</span><span class="lit">1</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-341-6781"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">2</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-342-6782"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">3</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-343-6783"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">4</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-344-6784"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">5</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-345-6785"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">6</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-346-6786"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">7</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-347-6787"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">8</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-348-6788"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">9</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-349-6789"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">10</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-350-6710"</span><span class="pun">;</span><span class="pln">
+data</span><span class="pun">[</span><span class="lit">11</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="str">"012-351-6711"</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">function</span><span class="pln"> show_all</span><span class="pun">(){</span><span class="pln">
+  text </span><span class="pun">=</span><span class="pln"> </span><span class="str">""</span><span class="pun">;</span><span class="pln">
+  text </span><span class="pun">=</span><span class="pln"> text </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;div&gt;"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> data</span><span class="pun">[</span><span class="lit">1</span><span class="pun">]</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;/div&gt;"</span><span class="pun">;</span><span class="pln">
+  text </span><span class="pun">=</span><span class="pln"> text </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;div&gt;"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> data</span><span class="pun">[</span><span class="lit">2</span><span class="pun">]</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;/div&gt;"</span><span class="pun">;</span><span class="pln">
+  text </span><span class="pun">=</span><span class="pln"> text </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;div&gt;"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> data</span><span class="pun">[</span><span class="lit">3</span><span class="pun">]</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;/div&gt;"</span><span class="pun">;</span><span class="pln">
+  text </span><span class="pun">=</span><span class="pln"> text </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;div&gt;"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> data</span><span class="pun">[</span><span class="lit">4</span><span class="pun">]</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;/div&gt;"</span><span class="pun">;</span><span class="pln">
+  text </span><span class="pun">=</span><span class="pln"> text </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;div&gt;"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> data</span><span class="pun">[</span><span class="lit">5</span><span class="pun">]</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;/div&gt;"</span><span class="pun">;</span><span class="pln">
+  text </span><span class="pun">=</span><span class="pln"> text </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;div&gt;"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> data</span><span class="pun">[</span><span class="lit">6</span><span class="pun">]</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;/div&gt;"</span><span class="pun">;</span><span class="pln">
+  text </span><span class="pun">=</span><span class="pln"> text </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;div&gt;"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> data</span><span class="pun">[</span><span class="lit">7</span><span class="pun">]</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;/div&gt;"</span><span class="pun">;</span><span class="pln">
+  text </span><span class="pun">=</span><span class="pln"> text </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;div&gt;"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> data</span><span class="pun">[</span><span class="lit">8</span><span class="pun">]</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;/div&gt;"</span><span class="pun">;</span><span class="pln">
+  text </span><span class="pun">=</span><span class="pln"> text </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;div&gt;"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> data</span><span class="pun">[</span><span class="lit">9</span><span class="pun">]</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;/div&gt;"</span><span class="pun">;</span><span class="pln">
+  text </span><span class="pun">=</span><span class="pln"> text </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;div&gt;"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> data</span><span class="pun">[</span><span class="lit">10</span><span class="pun">]</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;/div&gt;"</span><span class="pun">;</span><span class="pln">
+  text </span><span class="pun">=</span><span class="pln"> text </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;div&gt;"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> data</span><span class="pun">[</span><span class="lit">11</span><span class="pun">]</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;/div&gt;"</span><span class="pun">;</span><span class="pln">
+  document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">'result'</span><span class="pun">).</span><span class="pln">innerHTML </span><span class="pun">=</span><span class="pln"> text</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span><span class="pln">
+</span><span class="tag">&lt;/script&gt;</span><span class="pln">
+</span><span class="tag">&lt;/head&gt;</span><span class="pln">
+</span><span class="tag">&lt;body&gt;</span><span class="pln">
+</span><span class="tag">&lt;h1&gt;</span><span class="pln">配列</span><span class="tag">&lt;/h1&gt;</span><span class="pln">
+  </span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">onclick</span><span class="pun">=</span><span class="atv">"</span><span class="pln">show_all</span><span class="pun">()</span><span class="atv">"</span><span class="tag">&gt;</span><span class="pln">すべてのデータを表示</span><span class="tag">&lt;/button&gt;</span><span class="pln">
+  </span><span class="tag">&lt;p</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"result"</span><span class="tag">&gt;&lt;/p&gt;</span><span class="pln">
+</span><span class="tag">&lt;/body&gt;</span><span class="pln">
+</span><span class="tag">&lt;/html&gt;</span></code></pre>
+            <h3>今日の宿題</h3>
+            <p>上記のプログラムに下記処理を追加してください。ファイル名は「JSHW10-01.html」とする。
+              </p><ol>
+                <li>テキストボックスとボタンを追加</li>
+                <li>テキストボックスに数字を入れてボタンを押すと、その番号の配列の情報を表示する。</li>
+                <li>アドバンス：show_allの部分をfor文を用いて書き直す。</li>
+              </ol>
+              <span id="toc11"></span><h2> 第11回</h2>
+              <h3>繰り返し処理と配列</h3>
+              <p>前回のプログラムを使って、さらに、いろいろな処理を行ってみましょう。前回のshow_allの部分はfor文を使うと下記のように書けます。</p>
+              <pre class="prettyprint prettyprinted" style=""><code><span class="kwd">function</span><span class="pln"> show_all</span><span class="pun">(){</span><span class="pln">
+  text </span><span class="pun">=</span><span class="pln"> </span><span class="str">""</span><span class="pun">;</span><span class="pln">
+  </span><span class="kwd">for</span><span class="pun">(</span><span class="pln"> i </span><span class="pun">=</span><span class="pln"> </span><span class="lit">0</span><span class="pun">;</span><span class="pln"> i </span><span class="pun">&lt;</span><span class="pln"> </span><span class="lit">12</span><span class="pun">;</span><span class="pln"> i</span><span class="pun">++</span><span class="pln"> </span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+      text </span><span class="pun">=</span><span class="pln"> text </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;div&gt;"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> data</span><span class="pun">[</span><span class="pln">i</span><span class="pun">]</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;/div&gt;"</span><span class="pun">;</span><span class="pln">
+  </span><span class="pun">}</span><span class="pln">
+  document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">'result'</span><span class="pun">).</span><span class="pln">innerHTML </span><span class="pun">=</span><span class="pln"> text</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span><span class="pln"> </span></code></pre>
+              <p>では、配列の数（要素数）が変わっても問題内容にこの部分を書き換えるにはどうすれば良いでしょうか？</p>
+              <p> 配列の要素数は、data.lengthで呼び出すことができますので、</p>
+              <pre class="prettyprint prettyprinted" style=""><code><span class="kwd">function</span><span class="pln"> show_all</span><span class="pun">(){</span><span class="pln">
+  text </span><span class="pun">=</span><span class="pln"> </span><span class="str">""</span><span class="pun">;</span><span class="pln">
+  </span><span class="kwd">for</span><span class="pun">(</span><span class="pln"> i </span><span class="pun">=</span><span class="pln"> </span><span class="lit">0</span><span class="pun">;</span><span class="pln"> i </span><span class="pun">&lt;</span><span class="pln"> data</span><span class="pun">.</span><span class="pln">length</span><span class="pun">;</span><span class="pln"> i</span><span class="pun">++</span><span class="pln"> </span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+      text </span><span class="pun">=</span><span class="pln"> text </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;div&gt;"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> data</span><span class="pun">[</span><span class="pln">i</span><span class="pun">]</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;/div&gt;"</span><span class="pun">;</span><span class="pln">
+  </span><span class="pun">}</span><span class="pln">
+  document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">'result'</span><span class="pun">).</span><span class="pln">innerHTML </span><span class="pun">=</span><span class="pln"> text</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span><span class="pln"> </span></code></pre>
+              <p>と書き換えるだけです。</p>
+              <h3>乱数</h3>
+              <p>コンピュータで抽選をするなど、乱数（ランダム）を用いることはたびたびあります。JavaScriptでは、Math.random()という命令で0から1未満の乱数を生成します。</p>
+              <p>Math.random()を使って、0から9の整数をランダムに生成するにはどうすれば良いでしょうか？</p>
+              <pre class="prettyprint prettyprinted" style=""><code><span class="pln">num </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Math</span><span class="pun">.</span><span class="pln">random</span><span class="pun">()</span><span class="pln"> </span><span class="pun">*</span><span class="pln"> </span><span class="lit">10</span><span class="pun">;</span><span class="pln">
+num </span><span class="pun">=</span><span class="pln"> num </span><span class="pun">-</span><span class="pln"> num </span><span class="pun">%</span><span class="pln"> </span><span class="lit">1</span><span class="pun">;</span></code></pre>
+              <p>このように、まず10倍して0から9.999999...の数字を得ます。そして、小数部分を引くことで0から9の整数を得ることができます。</p>
+              <h3>今日の宿題</h3>
+              <p>電話データのプログラムに、ボタンを追加して、ランダムに１件電話番号を表示する。ファイル名は、「JWHW11-01.html」とする。</p>
+              <h3>課題２</h3>
+              <p>これまで学んだ内容を用い、独自のプログラムが動作するページを作成すること。但し、評価は下記項目について行うので、意識して作成すること。締切は1/16日とする。</p>
+              <ul>
+                <li>授業で用意したサーバにアップロードし，各自のトップページから「課題２」でリンクされていること。</li>
+                <li>プログラム内容に独自性がある</li>
+                <li>条件分岐が効果的に用いられている</li>
+                <li>繰り返し処理が効果的に用いられている</li>
+                <li>配列が効果的に用いられている</li>
+                <li>乱数が効果的に用いられている</li>
+                <li>cssによるページデザインが効果的に行われている</li>
+                <li>四国大学公式ページへのリンクがある</li>
+                <li>タイトルバーには学生番号氏名が記載されている</li>
+                <li>htmlの書式にエラーがない</li>
+                <li>cssの書式にエラーがない</li>
+                <li>課題提出前にマナバフォリオで，これら項目の回答をする</li>
+              </ul>
+              <p>なお、Webなどを参考にしても良いが、HTML、JavaScript部分については、授業で学んだ範囲のみで作成すること。cssについては、理解できる内容であれば、授業の範囲を超えても構わない。</p>
+              <span id="toc12"></span><h2> 第12回</h2>
+              <h3>Switch</h3>
+              <p>switch文という条件分岐について紹介します。 if文でAかBかCかDかといった一度に複数の分岐を行う場合、 Aかどうか、次にBかどうか、と１つづつ順に判定が行われますが、 switch文では、一度に行います。 具体的には、下記の２つのプログラムは同じ処理になります。
+                </p><pre class="prettyprint prettyprinted" style=""><code><span class="kwd">if</span><span class="pun">(</span><span class="pln"> a </span><span class="pun">=</span><span class="pln"> </span><span class="str">"A"</span><span class="pln"> </span><span class="pun">){</span><span class="pln">
+   a </span><span class="pun">=</span><span class="pln"> </span><span class="str">"a"</span><span class="pun">;</span><span class="pln"> 
+</span><span class="pun">}</span><span class="kwd">else</span><span class="pln"> </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> a </span><span class="pun">=</span><span class="pln"> </span><span class="str">"B"</span><span class="pln"> </span><span class="pun">){</span><span class="pln">
+   a </span><span class="pun">=</span><span class="pln"> </span><span class="str">"b"</span><span class="pun">;</span><span class="pln"> 
+</span><span class="pun">}</span><span class="kwd">else</span><span class="pln"> </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> a </span><span class="pun">=</span><span class="pln"> </span><span class="str">"C"</span><span class="pln"> </span><span class="pun">){</span><span class="pln">
+   a </span><span class="pun">=</span><span class="pln"> </span><span class="str">"c"</span><span class="pun">;</span><span class="pln"> 
+</span><span class="pun">}</span><span class="kwd">else</span><span class="pln"> </span><span class="kwd">if</span><span class="pun">(</span><span class="pln"> a </span><span class="pun">=</span><span class="pln"> </span><span class="str">"D"</span><span class="pln"> </span><span class="pun">){</span><span class="pln">
+   a </span><span class="pun">=</span><span class="pln"> </span><span class="str">"d"</span><span class="pun">;</span><span class="pln"> 
+</span><span class="pun">}</span><span class="kwd">else</span><span class="pun">{</span><span class="pln">
+   a </span><span class="pun">=</span><span class="pln"> </span><span class="str">"x"</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+
+                <pre class="prettyprint prettyprinted" style=""><code><span class="kwd">switch</span><span class="pln"> </span><span class="pun">(</span><span class="pln"> a </span><span class="pun">){</span><span class="pln">
+   </span><span class="kwd">case</span><span class="pln"> </span><span class="str">"A"</span><span class="pun">:</span><span class="pln"> 
+     a </span><span class="pun">=</span><span class="pln"> </span><span class="str">"a"</span><span class="pun">;</span><span class="pln">
+     </span><span class="kwd">break</span><span class="pun">;</span><span class="pln">
+   </span><span class="kwd">case</span><span class="pln"> </span><span class="str">"B"</span><span class="pun">:</span><span class="pln"> 
+     a </span><span class="pun">=</span><span class="pln"> </span><span class="str">"b"</span><span class="pun">;</span><span class="pln">
+     </span><span class="kwd">break</span><span class="pun">;</span><span class="pln">
+   </span><span class="kwd">case</span><span class="pln"> </span><span class="str">"C"</span><span class="pun">:</span><span class="pln"> 
+     a </span><span class="pun">=</span><span class="pln"> </span><span class="str">"c"</span><span class="pun">;</span><span class="pln">
+     </span><span class="kwd">break</span><span class="pun">;</span><span class="pln">
+   </span><span class="kwd">case</span><span class="pln"> </span><span class="str">"D"</span><span class="pun">:</span><span class="pln"> 
+     a </span><span class="pun">=</span><span class="pln"> </span><span class="str">"d"</span><span class="pun">;</span><span class="pln">
+     </span><span class="kwd">break</span><span class="pun">;</span><span class="pln">
+   </span><span class="kwd">default</span><span class="pun">:</span><span class="pln"> 
+     a </span><span class="pun">=</span><span class="pln"> </span><span class="str">"x"</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+                <h3>While</h3>
+                <p>while文は、繰り返し処理を行い場合に用います。for文では変数の値で繰り返し回数が決まりますが、While文では、継続条件を満たす間繰り返し続けます。</p>
+                <p>下記プログラムでは、a++を100回行います。</p>
+                <pre class="prettyprint prettyprinted" style=""><code><span class="kwd">for</span><span class="pun">(</span><span class="pln"> i </span><span class="pun">=</span><span class="pln"> </span><span class="lit">0</span><span class="pun">;</span><span class="pln"> i </span><span class="pun">&lt;</span><span class="pln"> </span><span class="lit">100</span><span class="pun">;</span><span class="pln"> i</span><span class="pun">++</span><span class="pln"> </span><span class="pun">){</span><span class="pln">
+  a</span><span class="pun">++;</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+                <p>一方、下記プログラムでは、a++をaの値が100未満の間続けます。例えば、aの値が99だった場合は1回実行されるのみですが、aの値がマイナス値なら、100回以上a++が実行されることになります。</p>
+                <pre class="prettyprint prettyprinted" style=""><code><span class="kwd">while</span><span class="pun">(</span><span class="pln"> a </span><span class="pun">&lt;</span><span class="pln"> </span><span class="lit">100</span><span class="pln"> </span><span class="pun">){</span><span class="pln">
+  a</span><span class="pun">++;</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+                <h3>今日の宿題</h3>
+                <ol>
+                  <li>合計が100以上になるまで乱数を足し続け、100以上になったら、何回足したかを表示するプログラムを作成する。ファイル名は、「JSHW12-01.html」とする</li>
+                  <li>テキストボックスに数字を入れ、その値が2937000から2937100の範囲であれば、メディア情報学科?番と表示し、それ以外の2900000から2999999の範囲であれば、メディア情報学科以外の１年生と表示するプログラムを作成する。ファイル名は、「JSHW12-02.html」とする。</li>
+                </ol>
+                <span id="toc13"></span><h2>第13回</h2>
+                <h3>得点データ</h3>
+                <p>第11回のプログラムをベースにより実践的なプログラムを作ってみましょう。まず、名前と得点のデータを配列で作ります。</p>
+                <pre class="prettyprint prettyprinted" style=""><code><span class="kwd">var</span><span class="pln"> surname </span><span class="pun">=</span><span class="pln"> </span><span class="pun">[</span><span class="str">'阿部'</span><span class="pun">,</span><span class="str">'加藤'</span><span class="pun">,</span><span class="str">'佐藤'</span><span class="pun">,</span><span class="str">'田中'</span><span class="pun">,</span><span class="str">'中川'</span><span class="pun">,</span><span class="str">'林'</span><span class="pun">,</span><span class="str">'松本'</span><span class="pun">,</span><span class="str">'矢部'</span><span class="pun">,</span><span class="str">'和田'</span><span class="pun">];</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> point </span><span class="pun">=</span><span class="pln"> </span><span class="pun">[</span><span class="lit">65</span><span class="pun">,</span><span class="pln"> </span><span class="lit">48</span><span class="pun">,</span><span class="pln"> </span><span class="lit">36</span><span class="pun">,</span><span class="pln"> </span><span class="lit">80</span><span class="pun">,</span><span class="pln"> </span><span class="lit">100</span><span class="pun">,</span><span class="pln"> </span><span class="lit">94</span><span class="pun">,</span><span class="pln"> </span><span class="lit">72</span><span class="pun">,</span><span class="pln"> </span><span class="lit">67</span><span class="pun">,</span><span class="pln"> </span><span class="lit">93</span><span class="pun">];</span></code></pre>
+                <p>配列を紹介した時には、new Array();で宣言してから、値を代入していました。上記のように書くことで、配列として利用することと、値を代入することを一度に行うこともできます。</p>
+                <p>このデータをtableで表示するプログラムを作成してみましょう。表示する部分の文字列の生成はfor文で作成すると以下のようになるでしょう。</p>
+                <pre class="prettyprint prettyprinted" style=""><code><span class="pln">txt </span><span class="pun">=</span><span class="pln"> </span><span class="str">"&lt;table&gt;"</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">for</span><span class="pln"> </span><span class="pun">(</span><span class="pln"> i </span><span class="pun">=</span><span class="pln"> </span><span class="lit">0</span><span class="pun">;</span><span class="pln"> i </span><span class="pun">&lt;</span><span class="pln"> surname</span><span class="pun">.</span><span class="pln">length</span><span class="pun">;</span><span class="pln"> i</span><span class="pun">++</span><span class="pln"> </span><span class="pun">){</span><span class="pln">
+    txt </span><span class="pun">=</span><span class="pln"> txt </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;tr&gt;&lt;td&gt;"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> surname</span><span class="pun">[</span><span class="pln">i</span><span class="pun">]</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;/td&gt;&lt;td&gt;"</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> point</span><span class="pun">[</span><span class="pln">i</span><span class="pun">]</span><span class="pln">  </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;/td&gt;&lt;/tr&gt;"</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span><span class="pln">
+txt </span><span class="pun">=</span><span class="pln"> txt </span><span class="pun">+</span><span class="pln"> </span><span class="str">"&lt;/table&gt;"</span><span class="pun">;</span><span class="pln">
+</span></code></pre>
+                <h3>平均，最大，最小</h3>
+<ul>
+                <li>上記プログラムを改変して，平均，最大，最小を計算するようにしてみましょう。</li>
+</ul>
+                <h3>今日の宿題</h3>
+                <p>最大，最小の人の名前を表示するようにしてみましょう。</p>
+
+                <span id="toc14"></span><h2> 第14回</h2>
+                <h3>ソート</h3>
+<ul>
+                <li>第１３回プログラムを改変して，得点を入力できるようにしてみましょう。</li>
+                <li>得点の高い（低い）ものから順に表示できるようにしてみましょう。</li>
+</ul>
+                <h3>期末テストについて</h3>
+
+                <span id="toc15"></span><h2> 第15回</h2>
+                <h3>まとめ</h3>
+<p>これまでのまとめ，復習</p>
+                <h3>期末テスト(U106)</h3>
+
+  <!--
+
+
+                <h2> 第14回</h2>
+RPG
+
+                <h2> 第15回</h2>
+                <p>この回は期末テスト及び課題２のサポートをします。</p>
+
+                <h2> 過去のスライド</h2>
+                <iframe src="Soft2-01.pdf" width="400" height="300"></iframe>
+                <iframe src="Soft2-02.pdf" width="400" height="300"></iframe>
+                <iframe src="Soft2-03.pdf" width="400" height="300"></iframe>
+                <iframe src="Soft2-04.pdf" width="400" height="300"></iframe>
+                <iframe src="WithEx/Soft2-04.pdf" width="400" height="300"></iframe>
+
+                <iframe src="Soft2-05.pdf" width="400" height="300"></iframe>
+                <iframe src="WithEx/Soft2-05.pdf" width="400" height="300"></iframe>
+                <p>
+                  <a href="WithEx/05/04.html" target=_blank>(課題解答例)</a>
+                  <a href="https://blockly-games.appspot.com/?lang=ja" target=_blank>Google Blockly(プログラムの考え方の練習)</a>
+                </p>
+
+                <iframe src="Soft2-07.pdf" width="400" height="300"></iframe>
+                <iframe src="Soft2-08.pdf" width="400" height="300"></iframe>
+                <iframe src="Soft2-09.pdf" width="400" height="300"></iframe>
+                <iframe src="Soft2-12.pdf" width="400" height="300"></iframe>
+-->
+                <div id="toc"><ul><li class="toc-h1"><a href="https://chaos.keiei.shikoku-u.ac.jp/intranet/Soft2/#toc0"> ソフトウェア基礎論II</a></li><li class="toc-h2"><a href="https://chaos.keiei.shikoku-u.ac.jp/intranet/Soft2/#toc1"> 第1回</a></li><li class="toc-h2"><a href="https://chaos.keiei.shikoku-u.ac.jp/intranet/Soft2/#toc2"> 第2回</a></li><li class="toc-h2"><a href="https://chaos.keiei.shikoku-u.ac.jp/intranet/Soft2/#toc3"> 第3回</a></li><li class="toc-h2"><a href="https://chaos.keiei.shikoku-u.ac.jp/intranet/Soft2/#toc4"> 第4回</a></li><li class="toc-h2"><a href="https://chaos.keiei.shikoku-u.ac.jp/intranet/Soft2/#toc5"> 第5回</a></li><li class="toc-h2 toc-active"><a href="https://chaos.keiei.shikoku-u.ac.jp/intranet/Soft2/#toc6"> 第6回</a></li><li class="toc-h2"><a href="https://chaos.keiei.shikoku-u.ac.jp/intranet/Soft2/#toc7"> 第7回</a></li><li class="toc-h2"><a href="https://chaos.keiei.shikoku-u.ac.jp/intranet/Soft2/#toc8"> 第8回</a></li><li class="toc-h2"><a href="https://chaos.keiei.shikoku-u.ac.jp/intranet/Soft2/#toc9"> 第9回</a></li><li class="toc-h2"><a href="https://chaos.keiei.shikoku-u.ac.jp/intranet/Soft2/#toc10"> 第10回</a></li><li class="toc-h2"><a href="https://chaos.keiei.shikoku-u.ac.jp/intranet/Soft2/#toc11"> 第11回</a></li><li class="toc-h2"><a href="https://chaos.keiei.shikoku-u.ac.jp/intranet/Soft2/#toc12"> 第12回</a></li><li class="toc-h2"><a href="https://chaos.keiei.shikoku-u.ac.jp/intranet/Soft2/#toc13">第13回</a></li><li class="toc-h2"><a href="https://chaos.keiei.shikoku-u.ac.jp/intranet/Soft2/#toc14"> 第14回</a></li><li class="toc-h2"><a href="https://chaos.keiei.shikoku-u.ac.jp/intranet/Soft2/#toc15"> 第15回</a></li></ul></div>
+                <script src="./ソフトウエア基礎論_files/toc.min.js"></script>
+                <script>
+                  $('#toc').toc({
+                      'selectors': 'h1,h2', //elements to use as headings
+                      'anchorName': function(i, heading, prefix) { //アンカーネームのカスタマイズ
+                        return prefix + i;
+                      },
+
+                    }
+
+                  );
+
+                </script>
+
+
+
+
+</ol></body></html>

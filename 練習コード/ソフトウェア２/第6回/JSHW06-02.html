@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JavaScript </title> 
+<script>
+function show_message(txt){
+    document.getElementById("title_text").textContent = txt;
+}
+</script>
+</head>
+<body>
+<h1 id="title_text">クジ引き</h1>
+<button onClick="show_message('当たり')">左</button>
+<button onClick="show_message('大当たり')">真ん中</button>
+<button onClick="show_message('はずれ')">右</button>
+</body>
+</html>

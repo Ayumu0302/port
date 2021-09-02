@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JavaScript </title> 
+<script>
+var data = new Array(); 
+data[1] = "012-341-6781";
+data[2] = "012-342-6782";
+data[3] = "012-343-6783";
+data[4] = "012-344-6784";
+data[5] = "012-345-6785";
+data[6] = "012-346-6786";
+data[7] = "012-347-6787";
+data[8] = "012-348-6788";
+data[9] = "012-349-6789";
+data[10] = "012-350-6710";
+data[11] = "012-351-6711";
+	
+function papa(){
+    var no = Math.floor(Math.random() * data .length + 1);
+	document.getElementById("result").innerHTML =
+	"検索結果は下記の通り" + "<div>" + data[no] + "</div>";
+}
+function show_all(){
+   txt = "";
+     for ( i = 1; i < 12; i++ ) {
+       txt =  txt + "<div>" + data[i] + "</div>";;
+     }
+      document.getElementById("result").innerHTML = "結果は下記の通り" + txt;
+    }
+</script>
+</head>
+<body>
+<h1>配列</h1>
+	 <button onClick="papa()">検索する</button>
+	<p id="result2"></p>
+  <button onclick="show_all()">すべてのデータを表示</button>
+  <p id="result"></p>
+</body>
+</html>

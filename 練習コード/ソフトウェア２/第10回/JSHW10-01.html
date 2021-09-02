@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JavaScript </title> 
+<script>
+var data = new Array();  
+data[1] = "012-341-6781";
+data[2] = "012-342-6782";
+data[3] = "012-343-6783";
+data[4] = "012-344-6784";
+data[5] = "012-345-6785";
+data[6] = "012-346-6786";
+data[7] = "012-347-6787";
+data[8] = "012-348-6788";
+data[9] = "012-349-6789";
+data[10] = "012-350-6710";
+data[11] = "012-351-6711";
+function show_all(){
+  text = "";
+  for(i=1;i < 12;i++){
+   text = text + "<div>" +data[i] + "</div>";
+  }
+  document.getElementById('result').innerHTML = text;
+}
+function show_data(){
+  document.getElementById('result').innerHTML = "<div>" +
+  data[document.getElementById("1").value] + "</div>";
+}
+</script>
+</head>
+<body>
+<h1>配列</h1>
+<input type="text" id="1">  
+<button onclick="show_data()">入力した番号のデータを表示</button>
+<button onclick="show_all()">すべてのデータを表示</button>
+<p id="result"></p>
+</body>
+</html>

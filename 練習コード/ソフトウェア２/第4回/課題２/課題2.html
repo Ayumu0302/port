@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style02.css">
+  <style type="text/css">
+
+
+</style>
+<script>
+var surname = ['恋愛に落ちる確率３.７倍！','残念ながら普通の恋愛率'];
+var point = ['コンドーム', 'TENGA', 'ラブドール', '電マ', '猿轡'];
+var susu = 0
+var a = 0
+var i = 0
+var man = 0
+var man1 = 0
+var man2 = 0
+var wo1 = 0
+var wo2 = 0
+var wo = 0
+function message0(){ 
+	susu = 0
+    a = 0
+    i = 0
+    man = 0
+    man1 = 0
+    man2 = 0
+    wo1 = 0
+    wo2 = 0
+    wo = 0
+	txt = ""
+	txt1 = ""
+	txt2 = ""
+	txt = txt + "<div>二人で行う心理テストだよ</div>"
+	txt1 = txt1 + "<div>男女でやることをお勧めするよ</div>"
+	txt2 = txt2 + "<div>直感で選んでね、最初は女の子からだよ</div>"
+		document.getElementById("result").innerHTML = txt + txt1 + txt2;
+	document.getElementById('demo4').innerHTML = '<button onClick="message1()">スタート！</button>' ;
+	document.getElementById('demo5').innerHTML =　"" ;
+	document.getElementById('demo6').innerHTML = "" ;
+		document.getElementById("demo2").innerHTML = "" ;
+	document.getElementById("demo3").innerHTML = "" ;
+}
+function message1(){ 
+	txt = ""
+	txt = txt + "<div>ホラー映画（グロい系の映画）は好きですか？</div>"
+	document.getElementById("result").innerHTML = txt;
+	document.getElementById('demo4').innerHTML = '<button onClick="message2()">はい(1)</button>' + "   " + '<button onClick="message7()">いいえ(0)</button>';
+}
+function message2(){
+	man = "1"
+	wo = "1"
+	txt = ""
+	txt = 
+		txt + "<div>全てを放り出して世界を船で旅してみたいですか？（船旅限定）</div>"
+	document.getElementById("result").innerHTML = txt;
+	document.getElementById('demo4').innerHTML = '<button onClick="message3()">はい(1)</button>' + "   " + '<button onClick="message8()">いいえ(0)</button>';
+}
+function message7(){
+	man = "0"
+	wo = "0"
+	txt = ""
+	txt = 
+		txt + "<div>全てを放り出して世界を船で旅してみたいですか？（船旅限定）</div>"
+	document.getElementById("result").innerHTML = txt;
+	document.getElementById('demo4').innerHTML = '<button onClick="message3()">はい(1)</button>' + "   " + '<button onClick="message8()">いいえ(0)</button>';
+}
+function message3(){
+	man1 = "1"
+	wo1 = "1"
+	txt = ""
+	txt = 
+		txt + "<div>一度でも一人で世界旅（海外留学）したことがありますか？</div>"
+	document.getElementById("result").innerHTML = txt;
+	document.getElementById('demo4').innerHTML = '<button onClick="message4()">はい(1)</button>' + "   " + '<button onClick="message9()">いいえ(0)</button>';
+}
+function message8(){
+	man1 = "0"
+	wo1 = "0"
+	txt = ""
+	txt = 
+		txt + "<div>一度でも一人で世界旅（海外留学）したことがありますか？</div>"
+	document.getElementById("result").innerHTML = txt;
+	document.getElementById('demo4').innerHTML = '<button onClick="message4()">はい(1)</button>' + "   " + '<button onClick="message9()">いいえ(0)</button>';
+}
+function message4(){
+	man2 = "1"
+	wo2 = "1"
+	susu = "1"
+	txt = ""
+	txt = 
+		txt + "<div>今まで選んできた数字(答え)だよ</div>"　+ "<div>次は男の子の番だ" 
+	document.getElementById("result").innerHTML = txt;
+	document.getElementById("demo4").innerHTML = ""
+	document.getElementById('demo2').innerHTML = man + man1 + man2 ;
+	document.getElementById('demo5').innerHTML = '<button onClick="message10()">男の番</button>';
+}
+function message9(){
+	man2 = "0"
+	wo2 = "0"
+	susu = "1"
+	txt = ""
+	txt = 
+		txt + "<div>今まで選んできた数字(答え)だよ</div>"　+ "<div>次は男の子の番だ" 
+	document.getElementById("result").innerHTML = txt;
+	document.getElementById("demo4").innerHTML = ""
+	document.getElementById('demo2').innerHTML = man + man1 + man2 ;
+	document.getElementById('demo5').innerHTML = '<button onClick="message10()">男の番</button>';
+}
+function message10(){ 
+	txt = ""
+	txt = txt + "<div>ホラー映画（グロい系の映画）は好きですか？</div>"
+	document.getElementById("result").innerHTML = txt;
+	document.getElementById('demo4').innerHTML = '<button onClick="message11()">はい(1)</button>' + "   " + '<button onClick="message12()">いいえ(0)</button>';
+	document.getElementById('demo5').innerHTML = ""
+}
+function message11(){
+	wo = "1"
+	txt = ""
+	txt = 
+		txt + "<div>全てを放り出して世界を船で旅してみたいですか？（船旅限定）</div>"
+	document.getElementById("result").innerHTML = txt;
+	document.getElementById('demo4').innerHTML = '<button onClick="message13()">はい(1)</button>' + "   " + '<button onClick="message14()">いいえ(0)</button>';
+}
+function message12(){
+	wo = "0"
+	txt = ""
+	txt = 
+		txt + "<div>全てを放り出して世界を船で旅してみたいですか？（船旅限定）</div>"
+	document.getElementById("result").innerHTML = txt;
+	document.getElementById('demo4').innerHTML = '<button onClick="message13()">はい(1)</button>' + "   " + '<button onClick="message14()">いいえ(0)</button>';
+}
+function message13(){
+	wo1 = "1"
+	txt = ""
+	txt = 
+		txt + "<div>一度でも一人で世界旅（海外留学）したことがありますか？</div>"
+	document.getElementById("result").innerHTML = txt;
+	document.getElementById('demo4').innerHTML = '<button onClick="message15()">はい(1)</button>' + "   " + '<button onClick="message16()">いいえ(0)</button>';
+}
+function message14(){
+	wo1 = "0"
+	txt = ""
+	txt = 
+		txt + "<div>一度でも一人で世界旅（海外留学）したことがありますか？</div>"
+	document.getElementById("result").innerHTML = txt;
+	document.getElementById('demo4').innerHTML = '<button onClick="message15()">はい(1)</button>' + "   " + '<button onClick="message16()">いいえ(0)</button>';
+}
+function message15(){
+	wo2 = "1"
+	susu = "1"
+	txt = ""
+	txt = 
+		txt + "<div>二人が今まで選んできた数字（答え）だよ</div>" + "<div>上が男の子で下が女の子だよ</div>"
+	document.getElementById("result").innerHTML = txt;
+	document.getElementById("demo4").innerHTML = ""
+	document.getElementById("demo2").innerHTML = man + man1 + man2 ;
+	document.getElementById("demo3").innerHTML = wo + wo1 + wo2 ;
+	document.getElementById('demo5').innerHTML = '<button onClick="message5()">確定</button>';
+}
+function message16(){
+	wo2 = "0"
+	susu = "1"
+	txt = ""
+	txt = 
+		txt + "<div>二人が今まで選んできた数字（答え）だよ</div>" + "<div>上が男の子で下が女の子だよ</div>"
+	document.getElementById("result").innerHTML = txt;
+	document.getElementById("demo4").innerHTML = ""
+	document.getElementById("demo2").innerHTML = man + man1 + man2 ;
+	document.getElementById("demo3").innerHTML = wo + wo1 + wo2 ;
+	document.getElementById('demo5').innerHTML = '<button onClick="message5()">確定</button>';
+}
+function message5(){
+	susu = 0
+	txt = ""
+	if(Number(man + man1 + man2) == Number(wo + wo1 + wo2)){
+		txt = surname[0];
+	}else{
+		txt = surname[1];
+	}
+	document.getElementById('demo5').innerHTML = "<div>ラッキーアイテムを見てみよう！</div>" + '<button onClick="message6()">ラッキーアイテム</button>' ;
+	document.getElementById("result").innerHTML = txt;
+	}
+	function message6(){
+		txt = ""
+		i = 0
+		a = 0
+		a = Math.floor( Math.random() * point.length)
+		for( i = 0 ; i < point.length ; i++ ){
+			if(a != i){
+				txt = txt + "<div>" + point[i] + "</div>"
+			}
+		}
+		document.getElementById("demo5").innerHTML = 
+			"<div>【君たちのラッキーアイテム】</div>" + point[a];
+		document.getElementById('demo6').innerHTML = 
+					"<div>【他のラッキーアイテムたち】</div>" + txt  
+		document.getElementById("result").innerHTML = "";
+		document.getElementById('demo4').innerHTML = "";
+		document.getElementById("demo2").innerHTML = "" ;
+	document.getElementById("demo3").innerHTML = "" ;
+	}
+</script>
+    <title> 
+    003037014 高橋歩睦
+    </title>
+</head>
+<body>
+    <h1>Wlcome to MY PAGE</h1>
+	<h2>心理テスト</h2>
+	<p id = result></p>
+	<p id = demo4></p>
+	<p id = demo2></p>
+	<p id = demo3></p>
+	<p id = demo5></p>
+	<p id = demo6></p>
+	<p id = result></p>
+	<p id = result2></p>
+	<button onClick="message0()">やってみる？</button>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br><a href="https://www.shikoku-u.ac.jp"> 四国大学 </a>
+	</body>
+	
+

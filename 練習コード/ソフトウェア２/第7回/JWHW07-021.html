@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JavaScript </title> 
+<script>
+function message1(){ 
+		 document.getElementById("title_text2").style.color = 
+        document.getElementById("title_text3").value;
+}
+</script>
+</head>
+<body>
+<h1 id="title_text2">情報の入力</h1>
+    <p>
+    <select id="title_text3">
+      <option stylecolor="red"> red</option>
+      <option stylecolor="green"> green</option>
+      <option stylecolor="blue"> blue</option>
+      <option stylecolor="black"> black</option>
+	<option stylecolor="yellow"> yellow</option>
+    </select>
+  </p>
+	 <button onClick="message1()">OK</button>
+</body>
+</html>
